@@ -13,15 +13,24 @@
     color: lightgreen;
     display: flex;
     justify-content: center;
-    font-size: 2em;
+    font-size: 1.5em;
+   /* height: 500px;*/
 
 }
 
-.paragraph1{
 
-    color: lightgreen;
+.row {
     display: flex;
-    justify-content: center;
-    font-size: 1em;
+  }
+  
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
 
+@media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
+
+.column {
+    flex: 50%;
 }
