@@ -1,8 +1,14 @@
+.parallax2:hover,.parallax3:hover,.parallax4:hover,.parallax5:hover{
+  opacity: 100%;
+  
+}
+
 
 .parallax1 {
     /* The image used */
-    background-image: url("pictures/IMG_1471.JPG");
-  
+    background-image: url("pictures/playground.jpg");
+    opacity: 30%;
+
     /* Set a specific height */
     min-height: 500px; /*work on scaling next*/
     
@@ -11,6 +17,8 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    transition: 0.3s;
+
   }
 
 
@@ -18,7 +26,8 @@
   .parallax2 {
     /* The image used */
     background-image: url("pictures/carterandi.jpg");
-  
+    opacity: 30%;
+    
     /* Set a specific height */
     min-height: 700px; /*work on scaling next*/
   
@@ -27,6 +36,8 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    transition: 0.3s;
+
   }
 
 
@@ -34,7 +45,7 @@
   .parallax3 {
     /* The image used */
     background-image: url("pictures/soundvoltex.jpg");
-  
+    opacity: 30%;
     /* Set a specific height */
     min-height: 700px; /*work on scaling next*/
   
@@ -43,13 +54,15 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    transition: 0.3s;
+
   }
 
 
   .parallax4 {
     /* The image used */
     background-image: url("pictures/ddrdoubles.gif");
-  
+    opacity: 30%;
     /* Set a specific height */
     min-height: 700px; /*work on scaling next*/
   
@@ -58,20 +71,40 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    transition: 0.3s;
+
   }
 
 
   .parallax5 {
     /* The image used */
-    background-image: url("pictures/travelling.jpg");
-  
+    background-image: url("pictures/pads.JPG");
+    opacity: 30%;
     /* Set a specific height */
     min-height: 700px; /*work on scaling next*/
+    
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: 0.3s;
+
+  }
+  
+
+  .parallax6 {
+    /* The image used */
+    background-image: url("pictures/code.png");
+    opacity: 30%;
+    /* Set a specific height */
+    min-height: 400px; /*work on scaling next*/
   
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    transition: 0.3s;
+
   }
-  
