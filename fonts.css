@@ -4,7 +4,7 @@
     justify-content: center;
     font-family: 'Oxygen', sans-serif;
     font-size: 4em;
-    margin-top: 1em;
+    
 }
 
 .sectionHeader{
@@ -57,4 +57,9 @@
     background-color: rgb(43, 43, 43);
     color: bisque;
     text-align: center
+}
+
+
+.list1{
+    list-style-image: url("")
 }
