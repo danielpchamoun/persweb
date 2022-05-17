@@ -1,4 +1,4 @@
-.parallax2:hover,.parallax3:hover,.parallax4:hover,.parallax5:hover{
+.parallax2:hover,.parallax3:hover,.parallax4:hover:hover{
   opacity: 100%;
   
 }
@@ -96,6 +96,22 @@
   .parallax6 {
     /* The image used */
     background-image: url("pictures/code.png");
+    opacity: 30%;
+    /* Set a specific height */
+    min-height: 400px; /*work on scaling next*/
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: 0.3s;
+
+  }
+
+  .parallax7 {
+    /* The image used */
+    background-image: url("pictures/IMG_3032.jpg");
     opacity: 30%;
     /* Set a specific height */
     min-height: 400px; /*work on scaling next*/
