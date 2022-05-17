@@ -59,6 +59,7 @@
 
 .infotext{
     background-color: rgb(43, 43, 43);
+    background-size: auto;
     color: bisque;
     text-align: center;
     font-family: 'Nixie One', cursive;
