@@ -10,7 +10,7 @@
     opacity: 30%;
 
     /* Set a specific height */
-    min-height: 500px; /*work on scaling next*/
+    min-height: 43vw; /*work on scaling next*/
     
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -29,7 +29,7 @@
     opacity: 30%;
     
     /* Set a specific height */
-    min-height: 700px; /*work on scaling next*/
+    min-height: 43vw; /*work on scaling next*/
   
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -47,7 +47,7 @@
     background-image: url("pictures/soundvoltex.jpg");
     opacity: 30%;
     /* Set a specific height */
-    min-height: 700px; /*work on scaling next*/
+    min-height: 43vw; /*work on scaling next*/
   
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -64,7 +64,7 @@
     background-image: url("pictures/ddrdoubles.gif");
     opacity: 30%;
     /* Set a specific height */
-    min-height: 700px; /*work on scaling next*/
+    min-height: 43vw; /*work on scaling next*/
   
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -81,7 +81,7 @@
     background-image: url("pictures/pads.JPG");
     opacity: 30%;
     /* Set a specific height */
-    min-height: 700px; /*work on scaling next*/
+    min-height: 43vw; /*work on scaling next*/
     
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -98,7 +98,7 @@
     background-image: url("pictures/code.png");
     opacity: 30%;
     /* Set a specific height */
-    min-height: 400px; /*work on scaling next*/
+    min-height: 43vw; /*work on scaling next*/
   
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -114,7 +114,7 @@
     background-image: url("pictures/IMG_3032.jpg");
     opacity: 30%;
     /* Set a specific height */
-    min-height: 400px; /*work on scaling next*/
+    min-height: 43vw; /*work on scaling next*/
   
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
