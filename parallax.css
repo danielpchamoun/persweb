@@ -10,7 +10,7 @@
     opacity: 30%;
 
     /* Set a specific height */
-    min-height: 43vw; /*work on scaling next*/
+    max-width:40vw; /*work on scaling next*/
     
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -29,7 +29,7 @@
     opacity: 30%;
     
     /* Set a specific height */
-    min-height: 43vw; /*work on scaling next*/
+    max-width:40vw; /*work on scaling next*/
   
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -47,7 +47,7 @@
     background-image: url("pictures/soundvoltex.jpg");
     opacity: 30%;
     /* Set a specific height */
-    min-height: 43vw; /*work on scaling next*/
+    max-width:40vw; /*work on scaling next*/
   
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -64,8 +64,7 @@
     background-image: url("pictures/ddrdoubles.gif");
     opacity: 30%;
     /* Set a specific height */
-    min-height: 43vw; /*work on scaling next*/
-  
+    max-width:40vw;    
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
