@@ -3,7 +3,6 @@
     display: flex;
     justify-content: center;
     font-family: 'Press Start 2P', sans-serif;
-    font-size: 6vw;
     text-align: center;
 }
 
@@ -64,6 +63,9 @@
         font-size:3vw;
 
     }
+    .title{
+        font-size: 10vw;
+    }
         
 }
 
@@ -72,6 +74,9 @@
         font-size:2vw;
 
     } 
+    .title{
+        font-size: 6vw;
+    }
 }
 
 
