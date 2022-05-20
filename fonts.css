@@ -64,7 +64,8 @@
 
     }
     .title{
-        font-size: 20vw;
+        font-size: 13vw;
+        height: 120vh;
     }
         
 }
@@ -75,7 +76,10 @@
 
     } 
     .title{
+        padding-top: 35vh;
         font-size: 6vw;
+        height: 120vh;
+
     }
 }
 
