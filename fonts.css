@@ -3,16 +3,18 @@
     display: flex;
     justify-content: center;
     font-family: 'Press Start 2P', sans-serif;
-    font-size: 5vw;
+    font-size: 6vw;
     text-align: center;
 }
 
 .sectionHeader{
     color: rgb(106, 89, 99);
+    background-color:rgb(0, 0, 0);
     display: flex;
     justify-content: center;
     font-size: 5vw; 
     font-family: 'Bungee Inline', cursive;
+
 
 }
 
@@ -35,29 +37,45 @@
     font-size: 3.2vw;
     font-family: 'Bungee', cursive;
     text-align:center;
-
 }
 
 
-.row {
-    display: flex;
+/* Create two equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
   }
   
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
 /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
 
-@media screen and (max-width: 300px) {
+@media screen and (max-width: 600px) {
     .column {
       width: 100%;
     }
-    .row{
-        display:block;
-    }
-  }
+    .infotext{
+        font-size:3vw;
 
-.column {
-    flex: 50%;
+    }
+        
 }
 
+@media screen and (min-width: 601px) {
+    .column {
+        width: 100%;
+    }   
+    .infotext{
+        font-size:2vw;
+
+    } 
+}
 
 
 .infotext{
@@ -66,8 +84,6 @@
     color: bisque;
     text-align: center;
     font-family: 'Nixie One', cursive;
-    font-size:2vw;
-
 }
 
 
