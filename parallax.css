@@ -1,4 +1,4 @@
-.parallax2:hover,.parallax3:hover,.parallax4:hover,.parallax5:hover{
+.parallax2:hover,.parallax3:hover,.parallax4:hover:hover{
   opacity: 100%;
   
 }
@@ -10,7 +10,7 @@
     opacity: 30%;
 
     /* Set a specific height */
-    min-height: 500px; /*work on scaling next*/
+    max-width:40vw; /*work on scaling next*/
     
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -29,7 +29,7 @@
     opacity: 30%;
     
     /* Set a specific height */
-    min-height: 700px; /*work on scaling next*/
+    max-width:40vw; /*work on scaling next*/
   
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -47,7 +47,7 @@
     background-image: url("pictures/soundvoltex.jpg");
     opacity: 30%;
     /* Set a specific height */
-    min-height: 700px; /*work on scaling next*/
+    max-width:40vw; /*work on scaling next*/
   
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -64,8 +64,7 @@
     background-image: url("pictures/ddrdoubles.gif");
     opacity: 30%;
     /* Set a specific height */
-    min-height: 700px; /*work on scaling next*/
-  
+    max-width:40vw;    
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
@@ -81,7 +80,7 @@
     background-image: url("pictures/pads.JPG");
     opacity: 30%;
     /* Set a specific height */
-    min-height: 700px; /*work on scaling next*/
+    min-height: 43vw; /*work on scaling next*/
     
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -98,7 +97,23 @@
     background-image: url("pictures/code.png");
     opacity: 30%;
     /* Set a specific height */
-    min-height: 400px; /*work on scaling next*/
+    min-height: 43vw; /*work on scaling next*/
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: 0.3s;
+
+  }
+
+  .parallax7 {
+    /* The image used */
+    background-image: url("pictures/IMG_3032.jpg");
+    opacity: 30%;
+    /* Set a specific height */
+    min-height: 43vw; /*work on scaling next*/
   
     /* Create the parallax scrolling effect */
     background-attachment: fixed;

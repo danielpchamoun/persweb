@@ -22,13 +22,13 @@
 <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Bungee+Hairline&family=Bungee+Inline&family=Bungee+Outline&family=Bungee+Shade&family=Nixie+One&family=Noto+Sans+JP&family=Oxygen&family=Press+Start+2P&display=swap" rel="stylesheet">
 </head>
 
-<button onclick="topFunction()" id="myBtn" title="Go to top">
-<img>
-    
-    <img src="pictures/buttonbacktotop.png" style="background-color:transparent; height:2.5em; width: auto"> </img>
+<button onclick="topFunction()" id="myBtn" title="Go to top">    
+    <img src="pictures/buttonbacktotop.png" style="background-color:transparent; max-height:2.5em;">
 </button>
 
-<body style="background-color:rgb(0, 0, 0);font-size:36px"> 
+<body style="background-color:rgb(43, 43, 43);font-size:36px"> 
+<div style="background-color:black">
+
     <div class="w3-container">
         <div class="w3-bar w3-black">
         <a href="#aboutme" class="w3-bar-item w3-button w3-mobile">about me</a>
@@ -42,19 +42,30 @@
         </div>
     </div>
     <h2 class="title">daniel chamoun</h2>
-    <div class="parallax1"></div>
     <a id="aboutme" class="sectionHeader">About Me</a>
-    <div class="infotext">
-            <div class="row" style="background-color:rgb(43, 43, 43); text-align: left; margin-left: 15%; margin-right: 15%; padding-top: 7%;padding-bottom:7%"> 
-                <div style="padding-right: 7%; padding-top: 7%;">
-                Hello! I'm Daniel, a computer engineering student at the University of Illinois looking to further my understanding in anything related to computers. I am interested in
-                 lower level computer languages, hardware systems, as well as higher level programming as I have worked with all of these in the past. 
+    </div>
+    <div class="infotext" style="text-align: left">
+            <div class="row" style="background-color:rgb(43, 43, 43);padding-left:7%; padding-top: 7%;padding-bottom:7%"> 
+                <div class="column">
+                    <div style="padding-right: 7%; padding-top: 7%; line-height: 2;margin-left: auto; margin-right: auto;">
+                    Hello! I'm Daniel, a computer engineering student at the University of Illinois looking to further my understanding in anything related to computers. I am interested in
+                    lower level computer languages, hardware systems, as well as higher level programming as I have worked with all of these in the past. 
+                    </div>
                 </div>
-                <div class="row" style="background-color:rgb(43, 43, 43)" > 
-                    <img src="pictures/rubikscube.jpeg" alt="me!" style="width:12em; height: auto; display: block; margin-left: auto;margin-right: 1em;">
+                <div class="column">
+
+                    <div style="background-color:rgb(43, 43, 43);"> 
+                        <img src="pictures/rubikscube.jpeg" alt="me!" style="display: block; margin-left: auto; margin-right: auto; width: 40vw; padding-top:0;padding-bottom:0;">
+                    </div>
                 </div>
+
             </div>
     </div>
+
+    <div style="background-color:black">
+        <div class="parallax7"></div>
+    </div>
+
     <!-- not scrolling part-->
     <a id="projects" class="sectionHeader">Projects</a>
         <div class ="row">
@@ -63,7 +74,7 @@
                 
                 <!-- youtube video showcasing FPGA-->
                 <div style="text-align: center;">
-                    <iframe width="800" height= 600 src="https://www.youtube.com/embed/ppz8AAyH93I" title="YouTube video player" 
+                    <iframe style="height: 8em; width:10em" src="https://www.youtube.com/embed/ppz8AAyH93I" title="YouTube video player" 
                     frameborder="0" allow="accelerometer; autoplay;
                      clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
@@ -71,7 +82,7 @@
             <div class="column" style="background-color:rgb(43, 43, 43)">
                 <!-- other project goes here-->
                 <h1 class="header2"> Nixie Tube Clock Project </h1>
-                <img src="pictures/IMG_2257.jpg" alt="Clock is turned on" style="width:20em; height: auto; display: block; margin-left: auto;margin-right: auto;">
+                <img src="pictures/IMG_2257.jpg" alt="Clock is turned on" style="height: 8em; width:10em; display: block; margin-left: auto;margin-right: auto;">
             </div>
         </div>
         
@@ -81,16 +92,16 @@
                 <h1 class="header2"> LED's based on Frequencies </h1>
                 <!-- youtube video showing LED project-->
                 <div style="text-align: center;">
-                    <iframe width="407" height="724" src="https://www.youtube.com/embed/CjRU64Jtm6s" title="YouTube video player" frameborder="0" allow="accelerometer;
+                    <iframe style="height:8em; width:10em" src="https://www.youtube.com/embed/CjRU64Jtm6s" title="YouTube video player" frameborder="0" allow="accelerometer;
                      autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
             </div>
 
             <div class="column" style="background-color:rgb(43, 43, 43)">
-                <!-- mosiac project -->
-                <h1 class="header2"> Mosiac Generator from PNG's </h1>
+                <!-- mosaic project -->
+                <h1 class="header2"> Mosaic Generator from PNG's </h1>
                 <a href="pictures/mymosaic.png" target="_blank" rel="noopener noreferrer">
-                <img src="pictures/mymosaic.png" alt="chronotriggermosiac" style="width:25em; height: auto; display: block; margin-left: auto;margin-right: auto;"> 
+                <img src="pictures/mymosaic.png" alt="chronotriggermosaic" style="height:8em; width:10em; display: block; margin-left: auto;margin-right: auto;"> 
                 <div class = "infotext"> try opening this image in a new tab! </div>
                 </a>
             </div>
@@ -100,9 +111,12 @@
 
 
 
+        <div style="background-color:black">
+            <div class="parallax6"></div>
+        </div>
 
 
-        
+
     <a id="languages" class="sectionHeader">Languages</a>
     <div class ="row">
         <div class="column" style="background-color:rgb(43, 43, 43)" > 
@@ -138,14 +152,16 @@
             </div>
         </div>
     </div>
-    <div class="parallax6"></div>
 
 
+    <div style="background-color:black">
+        <div class="parallax5"></div>
+    </div>
 
     <a id="clubs" class="sectionHeader">Club Affiliations</a>
     <div style="background-color:rgb(0, 0, 0)">
-    <a href="https://ddrillini.club/">
-        <img src="pictures/ddrillinigif.gif" alt="DDRIllini Logo" style="width:20em; height: auto; display: block; margin-left: auto;margin-right: auto;">
+    <a href="https://ddrillini.club/" target="_blank" rel="noopener noreferrer">
+        <img src="pictures/ddrillinigif.gif" alt="DDRIllini Logo" style="max-width:40vw; display: block; margin-left: auto;margin-right: auto;">
     </a>
     </div>
 
@@ -154,12 +170,19 @@
 
     </div>
 
-    <div class="parallax2"></div>
-    <div class="parallax4"></div>
-    <div class="parallax3"></div>
-    <div class="parallax5"></div>
+    <div style="background-color:black">
+        <div class="parallax2"></div>
+    </div>
 
-    <a href="url">Contact Me</a>
+    <div style="background-color:black">
+        <div class="parallax4"></div>
+    </div>
+
+    <div style="background-color:black">
+        <div class="parallax3"></div>
+    </div>
+
+<!--    <a href="url">Contact Me</a>-->
 
 
 
