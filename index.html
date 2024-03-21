@@ -19,6 +19,7 @@
 <!-- fonts-->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nabla&family=Rubik+Lines&family=Share+Tech+Mono&family=Sixtyfour&family=Tektur:wght@400..900&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Bungee+Hairline&family=Bungee+Inline&family=Bungee+Outline&family=Bungee+Shade&family=Nixie+One&family=Noto+Sans+JP&family=Oxygen&family=Press+Start+2P&display=swap" rel="stylesheet">
 </head>
 
@@ -27,35 +28,44 @@
 </button>
 
 <body style="background-color:rgb(43, 43, 43);font-size:36px"> 
-<div style="background-color:black">
+    <div style="background-color:black">
 
     <div class="w3-container">
         <div class="w3-bar w3-black">
-        <a href="#aboutme" class="w3-bar-item w3-button w3-mobile">about me</a>
-        <a href="#projects" class="w3-bar-item w3-button w3-mobile">projects</a>
-        <a href="#languages" class="w3-bar-item w3-button w3-mobile">languages</a>
-        <a href="#clubs" class="w3-bar-item w3-button w3-mobile">clubs</a>
-        <a href="resume.pdf" class="w3-bar-item w3-button w3-mobile" target="_blank" rel="noopener noreferrer">resume</a>
+        <a href="#aboutme" class="w3-bar-item w3-button w3-mobile quicklinks w3-hover-pale-green">about me</a>
+        <a href="#projects" class="w3-bar-item w3-button w3-mobile quicklinks">projects</a>
+        <a href="#languages" class="w3-bar-item w3-button w3-mobile quicklinks">languages</a>
+        <a href="#clubs" class="w3-bar-item w3-button w3-mobile quicklinks">clubs</a>
+        <a href="resume.pdf" class="w3-bar-item w3-button w3-mobile quicklinks" target="_blank" rel="noopener noreferrer">resume</a>
         <!--<a href="#socials" class="w3-bar-item w3-button w3-mobile">socials</a> -->
         <a href="https://github.com/danielpchamoun" class="w3-bar-item w3-button w3-right w3-mobile" target="_blank" rel="noopener noreferrer"><img src="pictures/github.png" alt="github" width="50
             em" height="auto"> </a>
         </div>
     </div>
-    <h2 class="title">daniel chamoun</h2>
-    <a id="aboutme" class="sectionHeader">About Me</a>
+    <div class="title">danielchamoun</div>
+    
+    <!--nabla styling-->
+    <div class ="aftertitle nabla">.tech</div>
+    <div class ="aftertitlenoheight1 nabla">this</div>
+    <div class ="aftertitlenoheight2 nabla">that</div>
+    <div class ="aftertitlenoheight3 nabla">bla</div>
+    <div class ="aftertitlenoheight4 nabla">foo</div>
+    <div class ="aftertitlenoheight5 nabla">foo</div>
+
+    <a id="aboutme" class="sectionHeader">about me</a>
     </div>
     <div class="infotext" style="text-align: left">
             <div class="row" style="background-color:rgb(43, 43, 43);padding-left:7%; padding-top: 7%;padding-bottom:7%"> 
                 <div class="column">
                     <div style="padding-right: 7%; padding-top: 7%; line-height: 2;margin-left: auto; margin-right: auto;">
-                    Hello! I'm Daniel, a computer engineering student at the University of Illinois looking to further my understanding in anything related to computers. I am interested in
+                    I'm Daniel, a computer engineering student at the University of Illinois looking to further my understanding in anything related to computers. I am interested in
                     lower level computer languages, hardware systems, as well as higher level programming as I have worked with all of these in the past. 
                     </div>
                 </div>
                 <div class="column">
 
                     <div style="background-color:rgb(43, 43, 43);"> 
-                        <img src="pictures/IMG_4251.jpeg" alt="me!" style="display: block; margin-left: auto; margin-right: auto; width: 40vw; padding-top:0;padding-bottom:0;">
+                        <img src="pictures/me.jpg" alt="me!" style="display: block; margin-left: auto; margin-right: auto; width: 40vw; padding-top:0;padding-bottom:0;">
                     </div>
                 </div>
 
@@ -67,7 +77,7 @@
     </div>
 
     <!-- not scrolling part-->
-    <a id="projects" class="sectionHeader">Projects</a>
+    <a id="projects" class="sectionHeader">projects</a>
         <div class ="row">
             <div class="column" style="background-color:rgb(43, 43, 43)" > 
                 <h1 class="header2">DDR Project on FPGA </h1>
@@ -117,7 +127,7 @@
 
 
 
-    <a id="languages" class="sectionHeader">Languages</a>
+    <a id="languages" class="sectionHeader">languages</a>
     <div class ="row">
         <div class="column" style="background-color:rgb(43, 43, 43)" > 
             <h1 class="header2"> Coding Languages </h1>
@@ -158,7 +168,7 @@
         <div class="parallax5"></div>
     </div>
 
-    <a id="clubs" class="sectionHeader">Club Affiliations</a>
+    <a id="clubs" class="sectionHeader">affiliations</a>
     <div style="background-color:rgb(0, 0, 0)">
     <a href="https://ddrillini.club/" target="_blank" rel="noopener noreferrer">
         <img src="pictures/ddrillinigif.gif" alt="DDRIllini Logo" style="max-width:40vw; display: block; margin-left: auto;margin-right: auto;">

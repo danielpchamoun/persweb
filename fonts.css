@@ -5,17 +5,39 @@
     font-family: 'Press Start 2P', sans-serif;
     text-align: center;
 }
+.nabla{
+    color: lightgreen;
+    display: flex;
+    justify-content: center;
+    font-family: 'nabla', sans-serif;
+    text-align: center;
+}
+.quicklinks{
+    color: lightgreen;
+    background-color:rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    font-size: 2.5vw; 
+    font-family: 'Rubik Lines'
+}
+
+
 
 .sectionHeader{
-    color: rgb(106, 89, 99);
+    color: lightgreen;
     background-color:rgb(0, 0, 0);
     display: flex;
     justify-content: center;
     font-size: 5vw; 
-    font-family: 'Bungee Inline', cursive;
+    font-family: 'Sixtyfour'
 
 
 }
+
+
+
+
+
 
 .header1{
 
@@ -34,7 +56,7 @@
     display: flex;
     justify-content: center;
     font-size: 3.2vw;
-    font-family: 'Bungee', cursive;
+    font-family: 'Tektur', cursive;
     text-align:center;
 }
 
@@ -64,8 +86,28 @@
 
     }
     .title{
-        font-size: 13vw;
-        height: 120vh;
+        font-size: 5vw;
+        padding-top: 50vh;
+
+        /*height: 120vh;*/
+    }
+    .aftertitle{
+        padding-left: vh;
+
+        font-size: 6vw;
+        height: 60vh;
+        justify-content: right;
+        rotate: -15deg;
+    }
+
+    .aftertitlenoheight{
+        padding-left: vh;
+        padding-top: 0vh;
+
+        font-size: 6vw;
+        height: 60vh;
+        justify-content: right;
+        rotate: -15deg;
     }
         
 }
@@ -78,8 +120,57 @@
     .title{
         padding-top: 35vh;
         font-size: 6vw;
-        height: 120vh;
+    }
+    .aftertitle{
+        padding-top: 0vh;
+        font-size: 6vw;
+        height: 60vh;
+        justify-content: right;
+        rotate: -15deg;
+    }
 
+    .aftertitlenoheight1{
+        padding-left: vh;
+        padding-top: 0vh;
+        font-size: 6vw;
+        height: 0vh;
+        justify-content: left;
+        rotate: 15deg;
+    }
+    .aftertitlenoheight2{
+        padding-left: vh;
+        padding-top: 0vh;
+
+        font-size: 6vw;
+        height: 0vh;
+        justify-content: left;
+        rotate: 30deg;
+    }
+    .aftertitlenoheight3{
+        padding-left: vh;
+        padding-top: 0vh;
+
+        font-size: 6vw;
+        height: 0vh;
+        justify-content: right;
+        rotate: -15deg;
+    }
+    .aftertitlenoheight4{
+        padding-left: vh;
+        padding-top: 0vh;
+
+        font-size: 6vw;
+        height: 0vh;
+        justify-content: right;
+        rotate: -30deg;
+    }
+    .aftertitlenoheight5{
+        padding-left: vh;
+        padding-top: 0vh;
+
+        font-size: 6vw;
+        justify-content: middle;
+        rotate: 0deg;
     }
 }
 
@@ -89,7 +180,7 @@
     background-size: auto;
     color: bisque;
     text-align: center;
-    font-family: 'Nixie One', cursive;
+    font-family: 'Tektur', cursive;
 }
 
 
