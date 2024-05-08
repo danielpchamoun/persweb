@@ -126,7 +126,7 @@ font-variation-settings:
 
 
 .sectionHeader{
-    color: rgb(255, 89, 0);
+    color: rgb(255, 255, 255);
     background: radial-gradient(#000000, grey);
     display: flex;
     justify-content: center;
@@ -166,16 +166,16 @@ font-variation-settings:
 /* Create two equal columns that floats next to each other */
 .column {
     float: left;
-    width: 50%;
+    width: 33%;
     padding: 10px;
   }
   
-  /* Clear floats after the columns */
+/* Clear floats after the columns */
   .row:after {
     content: "";
     display: table;
     clear: both;
-  }
+}
 
 /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
 
