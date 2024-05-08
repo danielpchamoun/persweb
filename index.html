@@ -34,56 +34,74 @@
 
     <div class="w3-container">
         <div class="w3-bar w3-black">
-        <a href="#aboutme" class="w3-bar-item w3-button w3-mobile quicklinks w3-hover-pale-green">about me</a>
-        <a href="#projects" class="w3-bar-item w3-button w3-mobile quicklinks">projects</a>
-        <a href="#languages" class="w3-bar-item w3-button w3-mobile quicklinks">languages</a>
-        <a href="#clubs" class="w3-bar-item w3-button w3-mobile quicklinks">clubs</a>
-        <a href="resume.pdf" class="w3-bar-item w3-button w3-mobile quicklinks" target="_blank" rel="noopener noreferrer">resume</a>
-        <!--<a href="#socials" class="w3-bar-item w3-button w3-mobile">socials</a> -->
         <a href="https://github.com/danielpchamoun" class="w3-bar-item w3-button w3-right w3-mobile" target="_blank" rel="noopener noreferrer"><img src="pictures/github.png" alt="github" width="50
             em" height="auto"> </a>
         </div>
     </div>
-    <div class ="nabladivabout">
+    <a id= "selectabout" href="#aboutme" onmouseenter="selectAbout()" onmouseleave="resetSelected()">
+        <div class ="nabladivabout">
+            <span id ="nabla1a1" class =" mynabla1">a</span> 
+            <span id ="nabla2b1" class =" mynabla2">b</span> 
+            <span id ="nabla3o1" class =" mynabla3">o</span> 
+            <span id ="nabla2u1" class =" mynabla2">u</span>
+            <span id ="nabla1t1" class =" mynabla1">t</span>    
+        </div>
+    </a>
 
-    <span id ="nabla1a1" class =" mynabla1">a</span> 
-    <span id ="nabla2b1" class =" mynabla2">b</span> 
-    <span id ="nabla3o1" class =" mynabla3">o</span> 
-    <span id ="nabla2u1" class =" mynabla2">u</span>
-    <span id ="nabla1t1" class =" mynabla1">t</span>    
-</div>
-<div class ="nabladivprojects">
-    <span id ="nabla1p2" class =" mynabla1">p</span> 
-    <span id ="nabla2r2" class =" mynabla2">r</span> 
-    <span id ="nabla3o2" class =" mynabla3">o</span> 
-    <span id ="nabla2j2" class =" mynabla2">j</span>
-    <span id ="nabla1e2" class =" mynabla1">e</span>
-    <span id ="nabla2c2" class =" mynabla2">c</span> 
-    <span id ="nabla3t2" class =" mynabla3">t</span> 
-    <span id ="nabla2s2" class =" mynabla2">s</span> 
+    <a id="selectprojects" href="#projects" onmouseenter="selectProjects()" onmouseleave="resetSelected()">
+        <div class ="nabladivprojects">
+            <span id ="nabla1p2" class =" mynabla1">p</span> 
+            <span id ="nabla2r2" class =" mynabla2">r</span> 
+            <span id ="nabla3o2" class =" mynabla3">o</span> 
+            <span id ="nabla2j2" class =" mynabla2">j</span>
+            <span id ="nabla1e2" class =" mynabla1">e</span>
+            <span id ="nabla2c2" class =" mynabla2">c</span> 
+            <span id ="nabla3t2" class =" mynabla3">t</span> 
+            <span id ="nabla2s2" class =" mynabla2">s</span> 
+        </div>
+    </a>
+    <a id="selectskills" href="#skills" onmouseenter="selectSkills()" onmouseleave="resetSelected()">
+        <div class ="nabladivskills">
+            <span id ="nabla1s3" class =" mynabla1">s</span> 
+            <span id ="nabla2k3" class =" mynabla2">k</span> 
+            <span id ="nabla3i3" class =" mynabla3">i</span> 
+            <span id ="nabla2l3" class =" mynabla2">l</span>
+            <span id ="nabla1l32" class =" mynabla1">l</span>
+            <span id ="nabla2s3" class =" mynabla2">s</span> 
+        </div>
+    </a>
 
-</div>
+    <a id="selectresume" href="resume.pdf" target="_blank" rel="noopener noreferrer" onmouseenter="selectResume()" onmouseleave="resetSelected()">
+        <div class ="nabladivresume">
+            <span id ="nabla1r4" class ="mynabla1">r</span> 
+            <span id ="nabla2e4" class ="mynabla2">e</span> 
+            <span id ="nabla3s4" class ="mynabla3">s</span> 
+            <span id ="nabla2u4" class ="mynabla2">u</span>
+            <span id ="nabla1m4" class ="mynabla1">m</span>
+            <span id ="nabla2e42" class ="mynabla2">e</span> 
+        </div>
+    </a>
 
-<div class ="nabladivskills">
-    <span id ="nabla1s3" class =" mynabla1">s</span> 
-    <span id ="nabla2k3" class =" mynabla2">k</span> 
-    <span id ="nabla3i3" class =" mynabla3">i</span> 
-    <span id ="nabla2l3" class =" mynabla2">l</span>
-    <span id ="nabla1l32" class =" mynabla1">l</span>
-    <span id ="nabla2s3" class =" mynabla2">s</span> 
+    <a id="selectitg" onmouseenter="selectITG()" onmouseleave="resetSelected()">
+        <div class ="nabladivitg">
+            <span id ="nabla1i5" class ="mynabla1">i</span> 
+            <span id ="nabla2t5" class ="mynabla2">t</span> 
+            <span id ="nabla3g5" class ="mynabla3">g</span>  
+        </div>
+    </a>
+    <a id="selectrun" onmouseenter="selectRun()" onmouseleave="resetSelected()">
 
-
-</div>
-
-
+        <div class ="nabladivrun">
+            <span id ="nabla1r6" class ="mynabla1">r</span> 
+            <span id ="nabla2u6" class ="mynabla2">u</span> 
+            <span id ="nabla3n6" class ="mynabla3">n</span>  
+        </div>
+    </a>
 
     <div class="title">danielchamoun</div>
     
-    <!--nabla styling-->
-    <div id ="nabla3" class ="aftertitle mynabla3"></div>
-    <div id ="nabla4" class ="aftertitlenoheight4 mynabla"></div>
-    <div id ="nabla5" class ="aftertitlenoheight5 mynabla"></div>
-    <div id ="nabla8" class ="aftertitlenoheight8 mynabla"></div>
+    <!--black space after title text-->
+    <div class ="aftertitle">test</div>
 
     <a id="aboutme" class="sectionHeader">about me</a>
     </div>
@@ -160,7 +178,7 @@
 
 
 
-    <a id="languages" class="sectionHeader">languages</a>
+    <a id="skills" class="sectionHeader">skills</a>
     <div class ="row">
         <div class="column" style="background-color:rgb(43, 43, 43)" > 
             <h1 class="header2"> Coding Languages </h1>
@@ -201,7 +219,7 @@
         <div class="parallax5"></div>
     </div>
 
-    <a id="clubs" class="sectionHeader">affiliations</a>
+    <a id="itg" class="sectionHeader">itg</a>
     <div style="background-color:rgb(0, 0, 0)">
     <a href="https://ddrillini.club/" target="_blank" rel="noopener noreferrer">
         <img src="pictures/ddrillinigif.gif" alt="DDRIllini Logo" style="max-width:40vw; display: block; margin-left: auto;margin-right: auto;">

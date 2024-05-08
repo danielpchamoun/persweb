@@ -1,44 +1,101 @@
+@font-palette-values --Nabla {
+	font-family: Nabla;
+    override-colors:
+    0 #00FF00,
+    1 #000000,
+    2 #00FF00,
+    3 #000000,
+    4 #000000,
+    5 #000000,
+    6 #000000,
+    7 #000000,
+    8 #000000,
+    9 #000000;
+	/*base-palette: 5;*/
+}
+a:link { text-decoration: none; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:active { text-decoration: none; }
+
 .title{
     color: lightgreen;
     display: flex;
     justify-content: center;
+    /*font-palette: --Nabla;
+    font-family: 'Nabla', sans-serif;*/
     font-family: 'Press Start 2P', sans-serif;
     text-align: center;
 }
 
+
+.nabladivresume:hover{
+    font-size: 7vw;
+    letter-spacing: -20;
+}
 .nabladivabout {
     letter-spacing: -15px;
-    padding-left: vh;
+    padding-left: 0vh;
     padding-top: 0vh;
-    font-size: 6vw;
-    height: 0vh;
-    justify-content: left;
-    rotate: 15deg;
-}
-.nabladivprojects {
-    letter-spacing: -15px;
-    padding-left: vh;
-    padding-top: 0vh;
-    font-size: 6vw;
-    height: 0vh;
-    justify-content: left;
-    rotate: -30deg;
-}
-.nabladivskills {
-    padding-left: vh;
-    padding-top: 0vh;
-
     font-size: 6vw;
     height: 0vh;
     justify-content: right;
-    rotate: -15deg;
+    rotate: -20deg;
+}
+.nabladivprojects {
+    letter-spacing: -15px;
+    padding-left: 40vw;
+    padding-top: 5vh;
+    font-size: 6vw;
+    height: 0vh;
+    justify-content: right;
+    rotate: -20deg;
+}
+.nabladivskills {
+    letter-spacing: -15px;
+    padding-left: 100vh;
+    padding-top: 0vh;
+    font-size: 6vw;
+    height: 0vh;
+    justify-content: left;
+    rotate: -20deg;
 }
 
+.nabladivresume {
+    letter-spacing: -15px;
+    padding-left: 1200vh;
+    padding-top: 0vh;
+    font-size: 6vw;
+    height: 0vh;
+    justify-content: left;
+    rotate: -20deg;
+}
+
+.nabladivitg {
+    letter-spacing: -15px;
+    padding-left: 140vh;
+    padding-top: 0vh;
+    font-size: 6vw;
+    height: 0vh;
+    justify-content: left;
+    rotate: -20deg;
+}
+
+.nabladivrun{
+    letter-spacing: -15px;
+    padding-left: 160vh;
+    padding-top: 0vh;
+    font-size: 6vw;
+    height: 0vh;
+    justify-content: left;
+    rotate: -20deg;
+}
 .mynabla1 {
     font-family: "Nabla", system-ui;
     font-optical-sizing: auto;
-    font-weight: 400;
+    font-weight: 500;
     font-style: normal;
+    font-palette: --Nabla;
     font-variation-settings:
       "EDPT" var(--thickness1),
       "EHLT" var(--highlights1);
@@ -49,6 +106,7 @@ font-family: "Nabla", system-ui;
 font-optical-sizing: auto;
 font-weight: 400;
 font-style: normal;
+font-palette: --Nabla;
 font-variation-settings:
     "EDPT" var(--thickness2),
     "EHLT" var(--highlights2);
@@ -58,29 +116,22 @@ font-family: "Nabla", system-ui;
 font-optical-sizing: auto;
 font-weight: 400;
 font-style: normal;
+font-palette: --Nabla;
 font-variation-settings:
     "EDPT" var(--thickness3),
     "EHLT" var(--highlights3);
 }
 
-.quicklinks{
-    color: lightgreen;
-    background-color:rgb(0, 0, 0);
-    display: flex;
-    justify-content: center;
-    font-size: 2.5vw; 
-    font-family: 'Rubik Lines'
-}
 
 
 
 .sectionHeader{
-    color: lightgreen;
-    background-color:rgb(0, 0, 0);
+    color: rgb(255, 89, 0);
+    background: radial-gradient(#000000, grey);
     display: flex;
     justify-content: center;
     font-size: 5vw; 
-    font-family: 'Sixtyfour'
+    font-family: 'Press Start 2P'
 
 
 }
@@ -139,26 +190,18 @@ font-variation-settings:
     .title{
         font-size: 5vw;
         padding-top: 50vh;
+        font-palette: --Nabla;
 
         /*height: 120vh;*/
     }
     .aftertitle{
-        padding-left: vh;
+        padding-left: 20vh;
 
         font-size: 6vw;
-        height: 60vh;
+        height: 200%;
         justify-content: right;
-        rotate: -15deg;
     }
 
-    .aftertitlenoheight{
-        padding-left: vh;
-        padding-top: 0vh;
-        font-size: 6vw;
-        height: 60vh;
-        justify-content: right;
-        rotate: -15deg;
-    }
         
 }
 
@@ -173,66 +216,10 @@ font-variation-settings:
     }
     .aftertitle{
         padding-top: 0vh;
-        font-size: 6vw;
-        height: 10vh;
+        height: 50vh;
         justify-content: right;
-        rotate: -15deg;
     }
 
-
-    .aftertitlenoheight0{
-        padding-left: vh;
-        padding-top: 0vh;
-        font-size: 6vw;
-        height: 0vh;
-        justify-content: left;
-        rotate: 15deg;
-    }
-
-    .aftertitlenoheight4{
-        padding-left: vh;
-        padding-top: 0vh;
-
-        font-size: 6vw;
-        height: 0vh;
-        justify-content: right;
-        rotate: -30deg;
-    }
-    .aftertitlenoheight5{
-        padding-right: 50vh;
-        padding-top: 0vh;
-
-        font-size: 6vw;
-        justify-content: right;
-        rotate: -20deg;
-    }
-
-    .aftertitlenoheight6{
-    padding-left: vh;
-    padding-top: 0vh;
-
-    font-size: 6vw;
-    height: 0vh;
-    justify-content: left;
-    rotate: -15deg;
-}
-    .aftertitlenoheight7{
-        padding-left: 100vh;
-        padding-top: 0vh;
-
-        font-size: 6vw;
-        height: 0vh;
-        justify-content: left;
-        rotate: -10deg;
-    }
-    .aftertitlenoheight8{
-        padding-left: vh;
-        padding-top: 0vh;
-
-        font-size: 6vw;
-        justify-content: middle;
-        rotate: 15deg;
-    }
 
 
 }
@@ -251,12 +238,4 @@ font-variation-settings:
     list-style-image: url("")
 }
 
-
-
-
-
-
-
-
-/* nabla text animations */
 
