@@ -286,3 +286,10 @@ function updateNabla3(count3){
         document.getElementById('nabla3n6').style.setProperty('--highlights3', count3);
     }
 }
+
+
+//strava 
+//does same origin policy matter here
+function getMostRecentID(){
+    return document.getElementBy
+}
