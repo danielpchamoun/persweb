@@ -1,3 +1,5 @@
+/*https://www.asciiart.eu/text-to-ascii-art*/
+
 @font-palette-values --Nabla {
 	font-family: Nabla;
     override-colors:
@@ -13,18 +15,25 @@
     9 #000000;
 	/*base-palette: 5;*/
 }
+
+
+
+
 a:link { text-decoration: none; }
 a:visited { text-decoration: none; }
 a:hover { text-decoration: none; }
 a:active { text-decoration: none; }
 
-.title{
+
+
+.asciititle{
     color: lightgreen;
     justify-content: center;
-    /*font-palette: --Nabla;
-    font-family: 'Nabla', sans-serif;*/
-    font-family: 'Press Start 2P', sans-serif;
+    font-family: 'Courier New', monospace;
     text-align: center;
+    padding-bottom: 20vh;
+    font-size: 1vw;
+    line-height:1;
 }
 
 
