@@ -31,8 +31,8 @@ a:active { text-decoration: none; }
     justify-content: center;
     font-family: 'Courier New', monospace;
     text-align: center;
-    padding-bottom: 20vh;
-    font-size: 1vw;
+    padding-bottom: 10vh;
+    font-size: 0.8vw;
     line-height:1;
 }
 
