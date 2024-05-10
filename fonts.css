@@ -3,16 +3,16 @@
 @font-palette-values --Nabla {
 	font-family: Nabla;
     override-colors:
-    0 #00FF00,
-    1 #000000,
-    2 #FFFFFF,
-    3 #000000,
-    4 #000000,
-    5 #000000,
-    6 #000000,
-    7 #000000,
-    8 #000000,
-    9 #000000;
+    0 #90ee90,
+    1 #000f00,
+    2 #90ee90,
+    3 #000f00,
+    4 #000f00,
+    5 #000f00,
+    6 #000f00,
+    7 #000f00,
+    8 #000f00,
+    9 #000f00;
 	/*base-palette: 5;*/
 }
 
@@ -27,13 +27,23 @@ a:active { text-decoration: none; }
 
 
 .asciititle{
-    color: lightgreen;
+    color: #90ee90;
     justify-content: center;
     font-family: 'Courier New', monospace;
     text-align: center;
     padding-bottom: 10vh;
     font-size: 0.8vw;
-    line-height:1;
+    line-height:0.9;
+}
+
+.asciiquickimagelink{
+    color: #90ee90;
+    justify-content: center;
+    font-family: 'Courier New', monospace;
+    text-align: center;
+    padding-bottom: 10vh;
+    font-size: 0.8vw;
+    line-height:0.9;
 }
 
 
@@ -130,12 +140,13 @@ font-variation-settings:
 
 
 .sectionHeader{
-    color: rgb(255, 255, 255);
+    color: lightgreen;
     background: radial-gradient(#000000, #111111);
     display: flex;
     justify-content: center;
-    font-size: 5vw; 
-    font-family: 'Press Start 2P'
+    font-size: 0.5vw; 
+    font-family: 'Press Start 2P';
+    line-height:0.9;
 
 
 }
