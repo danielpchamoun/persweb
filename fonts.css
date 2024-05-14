@@ -1,5 +1,7 @@
 /*https://www.asciiart.eu/text-to-ascii-art*/
-
+html,body{
+    overflow-x: hidden;
+}
 @font-palette-values --Nabla {
 	font-family: Nabla;
     override-colors:
