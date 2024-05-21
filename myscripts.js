@@ -10,7 +10,7 @@ var projectsSelected = 0;
 var skillsSelected = 0;
 var resumeSelected = 0;
 var ITGSelected = 0;
-var runSelected = 0;
+var grindSelected = 0;
 
 //updates counts
 var intervalId = window.setInterval(function(){
@@ -59,8 +59,8 @@ function selectResume(){
 function selectITG(){
     ITGSelected = 1;
 }
-function selectRun(){
-    runSelected = 1;
+function selectGrind(){
+    grindSelected = 1;
 }
 
 function resetSelected(){
@@ -69,7 +69,7 @@ function resetSelected(){
     skillsSelected = 0;
     resumeSelected = 0;
     ITGSelected = 0;
-    runSelected = 0;
+    grindSelected = 0;
 
     //first group
     document.getElementById('nabla1a1').style.setProperty('--thickness1', 50);
@@ -182,8 +182,8 @@ function updateNabla1(){
         document.getElementById('nabla1i5').style.setProperty('--highlights1', count1);
     }
 
-    //run
-    if(runSelected){
+    //grind
+    if(grindSelected){
         document.getElementById('nabla1r6').style.setProperty('--thickness1', count1);
         document.getElementById('nabla1r6').style.setProperty('--highlights1', count1);
     }
@@ -237,8 +237,8 @@ function updateNabla2(count2){
         document.getElementById('nabla2t5').style.setProperty('--highlights2', count2);
     }
 
-    //run
-    if(runSelected){
+    //grind
+    if(grindSelected){
         document.getElementById('nabla2u6').style.setProperty('--thickness2', count2);
         document.getElementById('nabla2u6').style.setProperty('--highlights2', count2);
     }
@@ -280,16 +280,9 @@ function updateNabla3(count3){
         document.getElementById('nabla3g5').style.setProperty('--highlights3', count3);
     }  
     
-    //run
-    if(runSelected){
+    //grind
+    if(grindSelected){
         document.getElementById('nabla3n6').style.setProperty('--thickness3', count3);
         document.getElementById('nabla3n6').style.setProperty('--highlights3', count3);
     }
-}
-
-
-//strava 
-//does same origin policy matter here
-function getMostRecentID(){
-    return document.getElementBy
 }

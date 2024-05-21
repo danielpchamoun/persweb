@@ -1,30 +1,58 @@
+/*https://www.asciiart.eu/text-to-ascii-art*/
+html,body{
+    overflow-x: hidden;
+}
 @font-palette-values --Nabla {
 	font-family: Nabla;
     override-colors:
-    0 #00FF00,
-    1 #000000,
-    2 #FFFFFF,
-    3 #000000,
-    4 #000000,
-    5 #000000,
-    6 #000000,
-    7 #000000,
-    8 #000000,
-    9 #000000;
+    0 #90ee90,
+    1 #000f00,
+    2 #90ee90,
+    3 #000f00,
+    4 #000f00,
+    5 #000f00,
+    6 #000f00,
+    7 #000f00,
+    8 #000f00,
+    9 #000f00;
 	/*base-palette: 5;*/
 }
+
+
+
+
 a:link { text-decoration: none; }
 a:visited { text-decoration: none; }
 a:hover { text-decoration: none; }
 a:active { text-decoration: none; }
 
-.title{
-    color: lightgreen;
+
+
+canvas{
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+}
+
+
+.asciititle{
+    color: #90ee90;
     justify-content: center;
-    /*font-palette: --Nabla;
-    font-family: 'Nabla', sans-serif;*/
-    font-family: 'Press Start 2P', sans-serif;
+    font-family: 'Courier New', monospace;
     text-align: center;
+    padding-bottom: 10vh;
+    font-size: 0.8vw;
+    line-height:0.9;
+}
+
+.asciiquickimagelink{
+    color: #90ee90;
+    justify-content: center;
+    font-family: 'Courier New', monospace;
+    text-align: center;
+    padding-bottom: 10vh;
+    font-size: 0.8vw;
+    line-height:0.9;
 }
 
 
@@ -76,7 +104,7 @@ a:active { text-decoration: none; }
     rotate: -30deg
 }
 
-.nabladivrun{
+.nabladivgrind{
     letter-spacing: -1vw;
     font-size: 5vw;
     height: 0vh;
@@ -121,12 +149,13 @@ font-variation-settings:
 
 
 .sectionHeader{
-    color: rgb(255, 255, 255);
+    color: lightgreen;
     background: radial-gradient(#000000, #111111);
     display: flex;
     justify-content: center;
-    font-size: 5vw; 
-    font-family: 'Press Start 2P'
+    font-size: 0.5vw; 
+    font-family: 'Press Start 2P';
+    line-height:0.9;
 
 
 }
@@ -160,6 +189,8 @@ font-variation-settings:
 
 /* Create two equal columns that floats next to each other */
 .column {
+    justify-content: center;
+
     float: left;
     width: 50%;
     padding: 10px;
@@ -167,6 +198,7 @@ font-variation-settings:
   
 /* Clear floats after the columns */
   .row:after {
+    justify-content: center;
     content: "";
     display: table;
     clear: both;
