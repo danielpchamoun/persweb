@@ -184,8 +184,11 @@ function updateNabla1(){
 
     //grind
     if(grindSelected){
-        document.getElementById('nabla1r6').style.setProperty('--thickness1', count1);
-        document.getElementById('nabla1r6').style.setProperty('--highlights1', count1);
+        document.getElementById('nabla1g6').style.setProperty('--thickness1', count1);
+        document.getElementById('nabla1g6').style.setProperty('--highlights1', count1);
+        document.getElementById('nabla1d6').style.setProperty('--thickness1', count1);
+        document.getElementById('nabla1d6').style.setProperty('--highlights1', count1);
+
     }
 }
 
@@ -239,8 +242,10 @@ function updateNabla2(count2){
 
     //grind
     if(grindSelected){
-        document.getElementById('nabla2u6').style.setProperty('--thickness2', count2);
-        document.getElementById('nabla2u6').style.setProperty('--highlights2', count2);
+        document.getElementById('nabla2r6').style.setProperty('--thickness2', count2);
+        document.getElementById('nabla2r6').style.setProperty('--highlights2', count2);
+        document.getElementById('nabla2n6').style.setProperty('--thickness2', count2);
+        document.getElementById('nabla2n6').style.setProperty('--highlights2', count2);
     }
 }
 
@@ -282,7 +287,7 @@ function updateNabla3(count3){
     
     //grind
     if(grindSelected){
-        document.getElementById('nabla3n6').style.setProperty('--thickness3', count3);
-        document.getElementById('nabla3n6').style.setProperty('--highlights3', count3);
+        document.getElementById('nabla3i6').style.setProperty('--thickness3', count3);
+        document.getElementById('nabla3i6').style.setProperty('--highlights3', count3);
     }
 }

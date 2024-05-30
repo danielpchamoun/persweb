@@ -28,19 +28,18 @@ a:active { text-decoration: none; }
 
 
 
-canvas{
-    margin-right: auto;
-    margin-left: auto;
-    display: block;
+.project-media{
+    width: 213px; 
+    height:120px;
+    text-align: center;
+    object-fit: contain;
+
 }
-
-
 .asciititle{
     color: #90ee90;
     justify-content: center;
     font-family: 'Courier New', monospace;
     text-align: center;
-    padding-bottom: 10vh;
     font-size: 0.8vw;
     line-height:0.9;
 }
@@ -99,7 +98,7 @@ canvas{
     font-size: 5vw;
     height: 0vh;
     float: left;
-    width: 13.3333333333333333333333333%;
+    width: 10%;
     padding: 10px;
     rotate: -30deg
 }
@@ -109,10 +108,11 @@ canvas{
     font-size: 5vw;
     height: 0vh;
     float: left;
-    width: 16.666666666666666666666666666%;
+    width: 20%;
     padding: 10px;
     rotate: -30deg
 }
+
 .mynabla1 {
     font-family: "Nabla", system-ui;
     font-optical-sizing: auto;
@@ -124,6 +124,7 @@ canvas{
       "EHLT" var(--highlights1);
     
   }
+
 .mynabla2 {
 font-family: "Nabla", system-ui;
 font-optical-sizing: auto;
@@ -134,6 +135,7 @@ font-variation-settings:
     "EDPT" var(--thickness2),
     "EHLT" var(--highlights2);
 }
+
 .mynabla3 {
 font-family: "Nabla", system-ui;
 font-optical-sizing: auto;
@@ -149,41 +151,29 @@ font-variation-settings:
 
 
 .sectionHeader{
-    color: lightgreen;
-    background: radial-gradient(#000000, #111111);
+    color: darkgreen;
+    background: radial-gradient(#000000, #000000);
     display: flex;
     justify-content: center;
     font-size: 0.5vw; 
-    font-family: 'Press Start 2P';
+    font-family: 'Courier New', monospace;
     line-height:0.9;
-
-
+    padding-top:40px;
+    padding-bottom:40px;
 }
 
 
+.header{
 
-
-
-
-.header1{
-
-    color: lightgreen;
-    display: flex;
-    justify-content: center;
-    font-size: 2vw;
-    text-align:center;
-
-}
-
-
-.header2{
-
-    color: lightgreen;
+    color: darkgreen;
     display: flex;
     justify-content: center;
     font-size: 3.2vw;
-    font-family: 'Tektur', cursive;
+    font-family: 'Courier New', monospace;
     text-align:center;
+    font-size: 14px;
+    font-weight: 700;
+
 }
 
 
@@ -211,7 +201,8 @@ font-variation-settings:
       width: 100%;
     }
     .infotext{
-        font-size:3vw;
+        font-size:2vw;
+        text-align: left
 
     }
     .title{
@@ -222,11 +213,8 @@ font-variation-settings:
         /*height: 120vh;*/
     }
     .aftertitle{
-        padding-left: 20vh;
-
-        font-size: 6vw;
-        height: 200%;
-        justify-content: right;
+        padding-left:25%;
+        padding-right:25%
     }
 
         
@@ -235,16 +223,15 @@ font-variation-settings:
 @media screen and (min-width: 601px) {
     .infotext{
         font-size:2vw;
-
+        text-align: left
     } 
     .title{
         padding-top: 15vh;
         font-size: 6vw;
     }
     .aftertitle{
-        padding-top: 0vh;
-        height: 50vh;
-        justify-content: right;
+        padding-left:25%;
+        padding-right:25%
     }
 
 
@@ -253,16 +240,15 @@ font-variation-settings:
 
 
 .infotext{
-    background-color: rgb(43, 43, 43);
+    background-color: black;
     background-size: auto;
-    color: bisque;
-    text-align: center;
-    font-family: 'Tektur', cursive;
-}
+    color: white;
+    text-align: left;
+    font-family: "Courier New", monospace;
+   /* font-weight: 700;*/
+    font-size: 14px;
+    font-style: normal;
 
-
-.list1{
-    list-style-image: url("")
 }
 
 

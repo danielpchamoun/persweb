@@ -1,0 +1,25 @@
+.asciianimation1{
+    margin-right: auto;
+    margin-left: auto;
+    align-items: center;
+    padding-right: 0;
+    padding-left: 0;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+.asciianimation2{
+    margin-right: auto;
+    margin-left: auto;
+    align-items: center;
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.asciianimationsg{
+    margin-right: auto;
+    margin-left: auto;
+    align-items: center;
+    padding-right: 0;
+    padding-left: 0;
+}

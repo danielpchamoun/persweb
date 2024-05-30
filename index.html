@@ -2,11 +2,9 @@
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link href="parallax.css" rel="stylesheet">
 <link href="fonts.css" rel="stylesheet">
-
+<link href="animations.css" rel="stylesheet">
 <link href="/totop/totop.css" rel="stylesheet">
-
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
 
@@ -29,64 +27,65 @@
     <img src="pictures/buttonbacktotop.png" style="background-color:transparent; max-height:2.5em;">
 </button>
 
-<body style="background-color:rgb(43, 43, 43);font-size:36px"> 
-    <div style="background-color:black">
+<body style="background-color:black;font-size:36px"> 
 
-    <div class="w3-container">
-        <div class="w3-bar w3-black">
-        <a href="https://github.com/danielpchamoun" class="w3-bar-item w3-button w3-right w3-mobile" target="_blank" rel="noopener noreferrer"><img src="pictures/github.png" alt="github" width="50
-            em" height="auto"> </a>
-        </div>
+
+
+
+    <div class="asciititle">
+        <pre>
+            
+        
+
+
+
+
+
+
+
+
+
+
+
+                                                                                                                                                            
+             88                           88              88              88                                                                                                                     88         
+             88                           ""              88              88                                                                                       ,d                            88         
+             88                                           88              88                                                                                       88                            88         
+     ,adPPYb,88  ,adPPYYba,  8b,dPPYba,   88   ,adPPYba,  88   ,adPPYba,  88,dPPYba,   ,adPPYYba,  88,dPYba,,adPYba,    ,adPPYba,   88       88  8b,dPPYba,      MM88MMM  ,adPPYba,   ,adPPYba,  88,dPPYba, 
+    a8"    `Y88  ""     `Y8  88P'   `"8a  88  a8P_____88  88  a8"     ""  88P'    "8a  ""     `Y8  88P'   "88"    "8a  a8"     "8a  88       88  88P'   `"8a       88    a8P_____88  a8"     ""  88P'    "8a
+    8b       88  ,adPPPPP88  88       88  88  8PP"""""""  88  8b          88       88  ,adPPPPP88  88      88      88  8b       d8  88       88  88       88       88    8PP"""""""  8b          88       88
+    "8a,   ,d88  88,    ,88  88       88  88  "8b,   ,aa  88  "8a,   ,aa  88       88  88,    ,88  88      88      88  "8a,   ,a8"  "8a,   ,a88  88       88  888  88,   "8b,   ,aa  "8a,   ,aa  88       88
+     `"8bbdP"Y8  `"8bbdP"Y8  88       88  88   `"Ybbd8"'  88   `"Ybbd8"'  88       88  `"8bbdP"Y8  88      88      88   `"YbbdP"'    `"YbbdP'Y8  88       88  888  "Y888  `"Ybbd8"'   `"Ybbd8"'  88       88
+        
+    
+
+
+
+
+                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                    
+        </pre>
+
     </div>
 
-
-<div class="asciititle">
-<pre>
-         
-    
-
-
-
-
-
-
-
-
-
-
-
-                                                                                                                                                          
-         88                           88              88              88                                                                                                                     88         
-         88                           ""              88              88                                                                                       ,d                            88         
-         88                                           88              88                                                                                       88                            88         
- ,adPPYb,88  ,adPPYYba,  8b,dPPYba,   88   ,adPPYba,  88   ,adPPYba,  88,dPPYba,   ,adPPYYba,  88,dPYba,,adPYba,    ,adPPYba,   88       88  8b,dPPYba,      MM88MMM  ,adPPYba,   ,adPPYba,  88,dPPYba, 
-a8"    `Y88  ""     `Y8  88P'   `"8a  88  a8P_____88  88  a8"     ""  88P'    "8a  ""     `Y8  88P'   "88"    "8a  a8"     "8a  88       88  88P'   `"8a       88    a8P_____88  a8"     ""  88P'    "8a
-8b       88  ,adPPPPP88  88       88  88  8PP"""""""  88  8b          88       88  ,adPPPPP88  88      88      88  8b       d8  88       88  88       88       88    8PP"""""""  8b          88       88
-"8a,   ,d88  88,    ,88  88       88  88  "8b,   ,aa  88  "8a,   ,aa  88       88  88,    ,88  88      88      88  "8a,   ,a8"  "8a,   ,a88  88       88  888  88,   "8b,   ,aa  "8a,   ,aa  88       88
- `"8bbdP"Y8  `"8bbdP"Y8  88       88  88   `"Ybbd8"'  88   `"Ybbd8"'  88       88  `"8bbdP"Y8  88      88      88   `"YbbdP"'    `"YbbdP'Y8  88       88  888  "Y888  `"Ybbd8"'   `"Ybbd8"'  88       88
-    
- 
-
-
-
-
-                                                                                                                                                                                                                    
-                                                                                                                                                                                                                                 
-</pre>
-
-<!--
-<canvas width="1920" height="1920" id="asciianimation"></canvas>
--->
+    <div style="display: flex; justify-content: center;">
+        <canvas id="asciianimation1"></canvas>
     </div>
 
-    
+    <script src="asciianimation1.js"></script>
+
+
+
+
+    <div style="padding-top:6%; padding-bottom:10%">
+
     <a id= "selectabout" href="#aboutme" onmouseenter="selectAbout()" onmouseleave="resetSelected()">
         <div class ="nabladivabout">
-            <span id ="nabla1a1" class =" mynabla1">a</span> 
-            <span id ="nabla2b1" class =" mynabla2">b</span> 
-            <span id ="nabla3o1" class =" mynabla3">o</span> 
-            <span id ="nabla2u1" class =" mynabla2">u</span>
-            <span id ="nabla1t1" class =" mynabla1">t</span>    
+            <span id ="nabla1a1" class ="mynabla1">a</span> 
+            <span id ="nabla2b1" class ="mynabla2">b</span> 
+            <span id ="nabla3o1" class ="mynabla3">o</span> 
+            <span id ="nabla2u1" class ="mynabla2">u</span>
+            <span id ="nabla1t1" class ="mynabla1">t</span>    
         </div>
     </a>
 
@@ -136,21 +135,20 @@ a8"    `Y88  ""     `Y8  88P'   `"8a  88  a8P_____88  88  a8"     ""  88P'    "8
     </a>
     <a id="selectgrind" href="grind.html" onmouseenter="selectGrind()" onmouseleave="resetSelected()">
         <div class ="nabladivgrind">
-            <span id ="nabla1r6" class ="mynabla1">r</span> 
-            <span id ="nabla2u6" class ="mynabla2">u</span> 
-            <span id ="nabla3n6" class ="mynabla3">n</span>  
+            <span id ="nabla1g6" class ="mynabla1">g</span> 
+            <span id ="nabla2r6" class ="mynabla2">r</span> 
+            <span id ="nabla3i6" class ="mynabla3">i</span>
+            <span id ="nabla2n6" class ="mynabla2">n</span>
+            <span id ="nabla1d6" class ="mynabla1">d</span>  
         </div>
     </a>
+    </div>
+   
 
 
-
-
-
-    <!--black space after title text-->
-    <div class ="aftertitle"></div>
-
+<div class="aftertitle">
     <a id="aboutme" class="sectionHeader">
-    <pre>                                                                                       
+        <pre>                                                                                       
             88                                                                                 
             88                                       ,d                                        
             88                                       88                                        
@@ -160,35 +158,21 @@ a8"    `Y88  ""     `Y8  88P'   `"8a  88  a8P_____88  88  a8"     ""  88P'    "8
 88,    ,88  88b,   ,a8"  "8a,   ,a8"  "8a,   ,a88    88,       88      88      88  "8b,   ,aa  
 `"8bbdP"Y8  8Y"Ybbd8"'    `"YbbdP"'    `"YbbdP'Y8    "Y888     88      88      88   `"Ybbd8"'  
                                                                                                
-    </pre>
-    
+        </pre>
     </a>
-    </div>
-    <div class="infotext" style="text-align: left">
-            <div class="row" style="background-color:rgb(43, 43, 43);padding-left:7%; padding-top: 7%;padding-bottom:7%"> 
-                <div class="column">
-                    <div style="padding-right: 7%; padding-top: 7%; line-height: 2;margin-left: auto; margin-right: auto;">
-                    I'm Daniel, a computer engineering student at the University of Illinois looking to further my understanding in anything related to computers. I am interested in
-                    lower level computer languages, hardware systems, as well as higher level programming as I have worked with all of these in the past. 
-                    </div>
-                </div>
-                <div class="column">
-
-                    <div style="background-color:rgb(43, 43, 43);"> 
-                        <img src="pictures/me.jpg" alt="me!" style="display: block; margin-left: auto; margin-right: auto; width: 40vw; padding-top:0;padding-bottom:0;">
-                    </div>
+    <div class="row"> 
+        <div class="infotext">
+                <div>
+                    I'm Daniel, a computer engineering graduate from the University of Illinois looking to further my understanding in anything related to computers. I am interested in lower level computer languages, hardware systems, as well as higher level programming as I have worked with all of these in the past. 
                 </div>
 
-            </div>
+        </div>
     </div>
 
-    <div style="background-color:black">
-        <div class="parallax7"></div>
-    </div>
+  
 
-    <!-- not scrolling part-->
     <a id="projects" class="sectionHeader">
-<pre>
+        <pre>
                                                                                       
                                       88                                              
                                       ""                            ,d                
@@ -200,54 +184,57 @@ a8"    `Y88  ""     `Y8  88P'   `"8a  88  a8P_____88  88  a8"     ""  88P'    "8
 88`YbbdP"'   88           `"YbbdP"'   88   `"Ybbd8"'   `"Ybbd8"'    "Y888  `"YbbdP"'  
 88                                   ,88                                              
 88                                 888P"                                              
-</pre>
+        </pre>
 
 
     </a>
         <div class ="row">
 
-            <div class="column" style="background-color:rgb(43, 43, 43)" > 
-                <h1 class="header2">JargonJolt</h1>
+            <div class="column" style="background-color:rgb(0, 0, 0)" > 
+                <h1 class="header">JargonJolt</h1>
                 
                 <!-- JargonJolt-->
                 <div style="text-align: center;">
-                    <iframe style="height: 8em; width:10em" src="https://www.youtube.com/embed/WICpilskrYo?si=6U-jpdY2ZtVkrcGQ" title="YouTube video player" 
+                    <iframe class="project-media" src="https://www.youtube.com/embed/WICpilskrYo?si=6U-jpdY2ZtVkrcGQ" title="YouTube video player" 
                     frameborder="0" allow="accelerometer; autoplay;
                      clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
             </div>
 
-            <div class="column" style="background-color:rgb(43, 43, 43)" > 
-                <h1 class="header2">DDR on FPGA </h1>
+            <div class="column" style="background-color:rgb(0, 0, 0)" > 
+                <h1 class="header">DDR on FPGA </h1>
                 
                 <!-- youtube video showcasing FPGA-->
                 <div style="text-align: center;">
-                    <iframe style="height: 8em; width:10em" src="https://www.youtube.com/embed/ppz8AAyH93I" title="YouTube video player" 
+
+                    <iframe class="project-media" src="https://www.youtube.com/embed/ppz8AAyH93I" title="YouTube video player" 
                     frameborder="0" allow="accelerometer; autoplay;
                      clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </div>
-            </div>
 
+                    </div>
+            </div>
         </div>
         
         <!-- row 2 -->
         <div class ="row">
-            <div class="column" style="background-color:rgb(43, 43, 43)" > 
-                <h1 class="header2"> LED's based on Frequencies </h1>
+            <div class="column" > 
+                <h1 class="header"> LED's based on Frequencies </h1>
                 <!-- youtube video showing LED project-->
                 <div style="text-align: center;">
-                    <iframe style="height:8em; width:10em" src="https://www.youtube.com/embed/CjRU64Jtm6s?si=U52LgWL9JHJ6alQr" title="YouTube video player" frameborder="0" allow="accelerometer;
+                    <iframe class="project-media" src="https://www.youtube.com/embed/CjRU64Jtm6s?si=U52LgWL9JHJ6alQr" title="YouTube video player" frameborder="0" allow="accelerometer;
                      autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
             </div>
 
-            <div class="column" style="background-color:rgb(43, 43, 43)">
+            <div class="column">
                 <!-- mosaic project -->
-                <h1 class="header2"> Mosaic Generator from PNG's </h1>
-                <a href="pictures/mymosaic.png" target="_blank" rel="noopener noreferrer">
-                <img src="pictures/mymosaic.png" alt="chronotriggermosaic" style="height:8em; width:10em; display: block; margin-left: auto;margin-right: auto;"> 
-                <div class = "infotext"> try opening this image in a new tab! </div>
-                </a>
+                <h1 class="header"> Mosaic Generator from PNG's </h1>
+                <div style="text-align: center;">
+                    <a href="pictures/mymosaic.png" target="_blank" rel="noopener noreferrer">
+                    <img class="project-media" src="pictures/mymosaic.png" alt="chronotriggermosaic"> 
+                    <div class = "infotext" style="text-align:center"> open this image in a new tab! </div>
+                </div>
+            </a>
             </div>
     
         </div>
@@ -255,32 +242,32 @@ a8"    `Y88  ""     `Y8  88P'   `"8a  88  a8P_____88  88  a8"     ""  88P'    "8
 
         <!-- row 3 -->
         <div class ="row">
-            <div class="column" style="background-color:rgb(43, 43, 43)">
+            <div class="column">
                 <!-- other project goes here-->
-                <h1 class="header2"> Nixie Tube Clock </h1>
-                <img src="pictures/IMG_2257.jpg" alt="Clock is turned on" style="height: 8em; width:10em; display: block; margin-left: auto;margin-right: auto;">
+                <div style="text-align: center;">
+                    <h1 class="header"> Nixie Tube Clock </h1>
+                    <img class="project-media" src="pictures/IMG_2257.jpg" alt="Clock is turned on">
+                </div>
             </div>
 
-            <div class="column" style="background-color:rgb(43, 43, 43)">
+            <div class="column">
                 <!-- ascii video -->
-                <h1 class="header2"> Video to ASCII Converter </h1>
-
-                <div style="height: 8em; width:10em; display: block; margin-left: auto;margin-right: auto;"> IN PROGRESS</div>
-
+                <h1 class="header"> Video to ASCII Converter </h1>
+                <div style="text-align: center;">
+                    <div class="project-media">IN PROGRESS image goes here , link to github goes here</div>
+                </div>
             </div>
     
         </div>
 
 
-    <div style="background-color:black">
-        <div class="parallax6"></div>
-    </div>
+
 
 
 
     <a id="skills" class="sectionHeader">
 
-<pre>
+        <pre>
                                              
            88         88  88  88             
            88         ""  88  88             
@@ -292,25 +279,25 @@ aa    ]8I  88`"Yba,   88  88  88  aa    ]8I
 `"YbbdP"'  88   `Y8a  88  88  88  `"YbbdP"'  
                                              
                                              
-</pre>
+        </pre>
     </a>
     <div class ="row">
-        <div class="column" style="background-color:rgb(43, 43, 43)" > 
-            <h1 class="header2"> Coding Languages </h1>
+        <div class="column" style="background-color:rgb(0, 0, 0)" > 
+            <h1 class="header"> Coding Languages </h1>
             <div class="infotext">
                 <div class="row">
                     <div class ="column">
                     <div> C </div>
                     <div> C++ </div>
                     <div>Java </div>
-                    <div>Javascript</div>
+                    <div>JavaScript</div>
 
                     </div>
                     <div class="column">
                         <div>System Verilog</div>
                         <div>HTML/CSS</div>
                         <div>Python</div>
-                        <div>And More!</div>
+                        <div>SQL</div>
 
                     </div>
                 </div>
@@ -319,8 +306,8 @@ aa    ]8I  88`"Yba,   88  88  88  aa    ]8I
 
             </div>
         </div>
-        <div class="column" style="background-color:rgb(43, 43, 43)">
-            <h1 class="header2"> Speaking Languages </h1>
+        <div class="column" style="background-color:rgb(0, 0, 0)">
+            <h1 class="header"> Speaking Languages </h1>
             <div class="infotext">
                 <div>English (native)</div>
                 <div>Spanish (working proficiency)</div>
@@ -329,10 +316,6 @@ aa    ]8I  88`"Yba,   88  88  88  aa    ]8I
         </div>
     </div>
 
-
-    <div style="background-color:black">
-        <div class="parallax5"></div>
-    </div>
 
     <a id="itg" class="sectionHeader">
 
@@ -353,35 +336,20 @@ aa    ]8I  88`"Yba,   88  88  88  aa    ]8I
     <div style="background-color:rgb(0, 0, 0)">
     <a href="https://ddrillini.club/" target="_blank" rel="noopener noreferrer">
         <img src="pictures/ddrillinigif.gif" alt="DDRIllini Logo" style="max-width:40vw; display: block; margin-left: auto;margin-right: auto;">
+
     </a>
     </div>
 
-    <div class="infotext">
 
-
-    </div>
-
-    <div style="background-color:black">
-        <div class="parallax2"></div>
-    </div>
-
-    <div style="background-color:black">
-        <div class="parallax4"></div>
-    </div>
-
-    <div style="background-color:black">
-        <div class="parallax3"></div>
-    </div>
 
 <!--    <a href="url">Contact Me</a>-->
 
 
 
     <script src="/totop/totop.js"></script>
-    <script src="animation.js"></script>
+    </div>
 
-
-
+</div>
 </body>
 
 </html>
