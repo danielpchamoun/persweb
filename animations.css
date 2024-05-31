@@ -16,7 +16,15 @@
     padding-left: 0;
 }
 
-.asciianimationsg{
+.asciianimation3{
+    margin-right: auto;
+    margin-left: auto;
+    align-items: center;
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.asciianimationsf{
     margin-right: auto;
     margin-left: auto;
     align-items: center;

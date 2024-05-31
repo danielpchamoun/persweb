@@ -26,12 +26,26 @@ a:visited { text-decoration: none; }
 a:hover { text-decoration: none; }
 a:active { text-decoration: none; }
 
+.ascii-margin{
+    font-size: 30px;
+    padding-left: 0%;
+    padding-right: 0%;
+    display: flex; 
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.ascii-margin > div, .ascii-margin > a {
+    flex: 1;
+    text-align: center;
+}
 
 
 .project-media{
     width: 213px; 
     height:120px;
     text-align: center;
+    align-items: stretch;
     object-fit: contain;
 
 }
@@ -180,10 +194,10 @@ font-variation-settings:
 /* Create two equal columns that floats next to each other */
 .column {
     justify-content: center;
-
     float: left;
     width: 50%;
     padding: 10px;
+    text-align: center
   }
   
 /* Clear floats after the columns */
@@ -192,6 +206,7 @@ font-variation-settings:
     content: "";
     display: table;
     clear: both;
+    text-align: center
 }
 
 /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
@@ -212,7 +227,7 @@ font-variation-settings:
 
         /*height: 120vh;*/
     }
-    .aftertitle{
+    .normal-margin{
         padding-left:25%;
         padding-right:25%
     }
@@ -223,13 +238,13 @@ font-variation-settings:
 @media screen and (min-width: 601px) {
     .infotext{
         font-size:2vw;
-        text-align: left
+        text-align: left;
     } 
     .title{
         padding-top: 15vh;
         font-size: 6vw;
     }
-    .aftertitle{
+    .normal-margin{
         padding-left:25%;
         padding-right:25%
     }
@@ -243,7 +258,7 @@ font-variation-settings:
     background-color: black;
     background-size: auto;
     color: white;
-    text-align: left;
+    text-align: left; /*causing formatting issues with the row and column classes*/
     font-family: "Courier New", monospace;
    /* font-weight: 700;*/
     font-size: 14px;
