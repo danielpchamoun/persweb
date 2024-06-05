@@ -69,15 +69,7 @@ a:active { text-decoration: none; }
 }
 
 
-.nabladivabout {
-    letter-spacing: -1vw;
-    font-size: 5vw;
-    height: 0vh;
-    float: left;
-    width: 16.666666666666666666666666666%;
-    padding: 10px;
-    rotate: -30deg
-}
+
 .nabladivprojects {
     letter-spacing: -1vw;
     font-size: 5vw;
@@ -85,16 +77,18 @@ a:active { text-decoration: none; }
     float: left;
     width: 20%;
     padding: 10px;
-    rotate: -30deg
+    rotate: -30deg;
+
 }
 .nabladivskills {
     letter-spacing: -1vw;
     font-size: 5vw;
     height: 0vh;
     float: left;
-    width: 16.666666666666666666666666666%;
+    width: 20%;
     padding: 10px;
-    rotate: -30deg
+    rotate: -30deg;
+
 }
 
 .nabladivresume {
@@ -102,11 +96,12 @@ a:active { text-decoration: none; }
     font-size: 5vw;
     height: 0vh;
     float: left;
-    width: 16.666666666666666666666666666%;
+    width: 20%;
     padding: 10px;
-    rotate: -30deg
-}
+    rotate: -30deg;
 
+}
+/*
 .nabladivitg {
     letter-spacing: -1vw;
     font-size: 5vw;
@@ -116,7 +111,7 @@ a:active { text-decoration: none; }
     padding: 10px;
     rotate: -30deg
 }
-
+*/
 .nabladivgrind{
     letter-spacing: -1vw;
     font-size: 5vw;
@@ -124,10 +119,22 @@ a:active { text-decoration: none; }
     float: left;
     width: 20%;
     padding: 10px;
-    rotate: -30deg
+    rotate: -30deg;
+
+}
+
+.nabladivabout {
+    letter-spacing: -1vw;
+    font-size: 5vw;
+    height: 0vh;
+    float: left;
+    width: 20%;
+    padding: 10px;
+    rotate: -30deg;
 }
 
 .mynabla1 {
+    /*font-family: 'Courier New', monospace;*/
     font-family: "Nabla", system-ui;
     font-optical-sizing: auto;
     font-weight: 500;
@@ -136,29 +143,38 @@ a:active { text-decoration: none; }
     font-variation-settings:
       "EDPT" var(--thickness1),
       "EHLT" var(--highlights1);
-    
+    color:#90ee90;
+
   }
 
 .mynabla2 {
-font-family: "Nabla", system-ui;
-font-optical-sizing: auto;
-font-weight: 400;
-font-style: normal;
-font-palette: --Nabla;
-font-variation-settings:
-    "EDPT" var(--thickness2),
-    "EHLT" var(--highlights2);
+    /*font-family: 'Courier New', monospace;*/
+
+    font-family: "Nabla", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-palette: --Nabla;
+    font-variation-settings:
+        "EDPT" var(--thickness2),
+        "EHLT" var(--highlights2);
+    color:#90ee90;
 }
 
 .mynabla3 {
-font-family: "Nabla", system-ui;
-font-optical-sizing: auto;
-font-weight: 400;
-font-style: normal;
-font-palette: --Nabla;
-font-variation-settings:
-    "EDPT" var(--thickness3),
-    "EHLT" var(--highlights3);
+    /*font-family: 'Courier New', monospace;*/
+
+    font-family: "Nabla", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-palette: --Nabla;
+    font-variation-settings:
+        "EDPT" var(--thickness3),
+        "EHLT" var(--highlights3);
+
+    color:#90ee90
+
 }
 
 
@@ -232,6 +248,34 @@ font-variation-settings:
         padding-right:25%
     }
 
+    /*nabla*/
+    .nabladivprojects {
+        display:none;
+
+    }
+    .nabladivskills {
+        display:none;
+
+    }
+    
+    .nabladivresume {
+        display:none;
+
+    }
+    
+    .nabladivitg {
+        display:none;
+
+    }
+    
+    .nabladivgrind{
+        display:none;
+
+    }
+    
+    .nabladivabout {
+        display:none;
+    }
         
 }
 
