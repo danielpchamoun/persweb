@@ -2,21 +2,6 @@
 html,body{
     overflow-x: hidden;
 }
-@font-palette-values --Nabla {
-	font-family: Nabla;
-    override-colors:
-    0 #90ee90,
-    1 #000f00,
-    2 #90ee90,
-    3 #000f00,
-    4 #000f00,
-    5 #000f00,
-    6 #000f00,
-    7 #000f00,
-    8 #000f00,
-    9 #000f00;
-	/*base-palette: 5;*/
-}
 
 
 
@@ -31,8 +16,8 @@ a:active { text-decoration: none; }
     padding-left: 0%;
     padding-right: 0%;
     display: flex; 
-    justify-content: space-evenly;
-    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-wrap: nowrap;
 }
 
 .ascii-margin > div, .ascii-margin > a {
@@ -68,120 +53,35 @@ a:active { text-decoration: none; }
     line-height:0.9;
 }
 
-
-
-.nabladivprojects {
-    letter-spacing: -1vw;
-    font-size: 5vw;
-    height: 0vh;
-    float: left;
-    width: 20%;
-    padding: 10px;
-    rotate: -30deg;
+.leftlinks{
+    float: right;
 
 }
-.nabladivskills {
-    letter-spacing: -1vw;
-    font-size: 5vw;
-    height: 0vh;
+.rightlinks{
     float: left;
-    width: 20%;
-    padding: 10px;
-    rotate: -30deg;
 
 }
 
-.nabladivresume {
-    letter-spacing: -1vw;
-    font-size: 5vw;
-    height: 0vh;
-    float: left;
-    width: 20%;
-    padding: 10px;
-    rotate: -30deg;
 
-}
-/*
-.nabladivitg {
-    letter-spacing: -1vw;
-    font-size: 5vw;
-    height: 0vh;
-    float: left;
-    width: 10%;
-    padding: 10px;
-    rotate: -30deg
-}
-*/
-.nabladivgrind{
-    letter-spacing: -1vw;
-    font-size: 5vw;
-    height: 0vh;
-    float: left;
-    width: 20%;
-    padding: 10px;
-    rotate: -30deg;
 
-}
-
-.nabladivabout {
-    letter-spacing: -1vw;
-    font-size: 5vw;
-    height: 0vh;
-    float: left;
-    width: 20%;
-    padding: 10px;
-    rotate: -30deg;
-}
-
-.mynabla1 {
-    /*font-family: 'Courier New', monospace;*/
-    font-family: "Nabla", system-ui;
+.handjet{
+    font-family: "Handjet", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 500;
+    font-weight: 600;
     font-style: normal;
-    font-palette: --Nabla;
     font-variation-settings:
-      "EDPT" var(--thickness1),
-      "EHLT" var(--highlights1);
+      "ELGR" 1,
+      "ELSH" var(--styleNum);
     color:#90ee90;
-
+    font-size: 5vw;
+    rotate: 0deg;
   }
-
-.mynabla2 {
-    /*font-family: 'Courier New', monospace;*/
-
-    font-family: "Nabla", system-ui;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-    font-palette: --Nabla;
-    font-variation-settings:
-        "EDPT" var(--thickness2),
-        "EHLT" var(--highlights2);
-    color:#90ee90;
-}
-
-.mynabla3 {
-    /*font-family: 'Courier New', monospace;*/
-
-    font-family: "Nabla", system-ui;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-    font-palette: --Nabla;
-    font-variation-settings:
-        "EDPT" var(--thickness3),
-        "EHLT" var(--highlights3);
-
-    color:#90ee90
-
-}
 
 
 
 
 .sectionHeader{
-    color: darkgreen;
+    color: #90ee90;
     background: radial-gradient(#000000, #000000);
     display: flex;
     justify-content: center;
@@ -195,7 +95,7 @@ a:active { text-decoration: none; }
 
 .header{
 
-    color: darkgreen;
+    color: #90ee90;
     display: flex;
     justify-content: center;
     font-size: 3.2vw;
@@ -236,45 +136,16 @@ a:active { text-decoration: none; }
         text-align: left
 
     }
-    .title{
-        font-size: 5vw;
-        padding-top: 50vh;
-        font-palette: --Nabla;
 
-        /*height: 120vh;*/
-    }
     .normal-margin{
         padding-left:25%;
         padding-right:25%
     }
 
-    /*nabla*/
-    .nabladivprojects {
+    /*handjet*/
+    .handjet{
         display:none;
 
-    }
-    .nabladivskills {
-        display:none;
-
-    }
-    
-    .nabladivresume {
-        display:none;
-
-    }
-    
-    .nabladivitg {
-        display:none;
-
-    }
-    
-    .nabladivgrind{
-        display:none;
-
-    }
-    
-    .nabladivabout {
-        display:none;
     }
         
 }
