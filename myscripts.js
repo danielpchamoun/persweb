@@ -9,17 +9,17 @@ var chatSelected = 0;
 var blogSelected = 0;
 var sciAdvSelected = 0;
 var githubSelected = 0;
-
 var startStyle = 4;
 var endStyle = 5;
-
+var styleVal1 = 2;
+var styleVal2 = 4.25;
 var temp = startStyle;
 
 //updates counts
+/*
 var intervalId = window.setInterval(function(){
     temp+=cflag1;
     count1 =temp.toFixed(1);
-    console.log(count1);
     if(count1 >= endStyle){
         count1 = startStyle;
         temp = startStyle;        
@@ -54,38 +54,56 @@ var intervalId = window.setInterval(function(){
     }
 
 }, 10);
-
+*/
 
 function selectAbout(){
     aboutSelected = 1;
+    document.getElementById('aboutSelected').style.setProperty('--styleNum', styleVal2);
+
 }
 
 function selectProjects(){
     projectsSelected = 1;
+    document.getElementById('projectsSelected').style.setProperty('--styleNum', styleVal2);
+
 }
 function selectSkills(){
     skillsSelected = 1;
+    document.getElementById('skillsSelected').style.setProperty('--styleNum', styleVal2);
+
 }
 function selectResume(){
     resumeSelected = 1;
+    document.getElementById('resumeSelected').style.setProperty('--styleNum', styleVal2);
+
 }
 
 
 function selectGrind(){
     grindSelected = 1;
+    document.getElementById('grindSelected').style.setProperty('--styleNum', styleVal2);
+
 }
 
 function selectGithub(){
     githubSelected = 1;
+    document.getElementById('githubSelected').style.setProperty('--styleNum', styleVal2);
+
 }
 function selectChat(){
     chatSelected = 1;
+    document.getElementById('chatSelected').style.setProperty('--styleNum', styleVal2);
+
 }
 function selectBlog(){
     blogSelected = 1;
+    document.getElementById('blogSelected').style.setProperty('--styleNum', styleVal2);
+
 }
 function selectSciAdv(){
     sciAdvSelected = 1;
+    document.getElementById('sciAdvSelected').style.setProperty('--styleNum', styleVal2);
+
 }
 
 
@@ -100,16 +118,15 @@ function resetSelected(){
     blogSelected = 0;
     chatSelected = 0;
     githubSelected = 0;
-    
-    var styleVal = 2;
-    document.getElementById('aboutSelected').style.setProperty('--styleNum', styleVal);
-    document.getElementById('projectsSelected').style.setProperty('--styleNum', styleVal);
-    document.getElementById('skillsSelected').style.setProperty('--styleNum', styleVal);
-    document.getElementById('resumeSelected').style.setProperty('--styleNum', styleVal);
-    document.getElementById('grindSelected').style.setProperty('--styleNum', styleVal);
-    document.getElementById('sciAdvSelected').style.setProperty('--styleNum', styleVal);
-    document.getElementById('blogSelected').style.setProperty('--styleNum', styleVal);
-    document.getElementById('chatSelected').style.setProperty('--styleNum', styleVal);
-    document.getElementById('githubSelected').style.setProperty('--styleNum', styleVal);
+
+    document.getElementById('aboutSelected').style.setProperty('--styleNum', styleVal1);
+    document.getElementById('projectsSelected').style.setProperty('--styleNum', styleVal1);
+    document.getElementById('skillsSelected').style.setProperty('--styleNum', styleVal1);
+    document.getElementById('resumeSelected').style.setProperty('--styleNum', styleVal1);
+    document.getElementById('grindSelected').style.setProperty('--styleNum', styleVal1);
+    document.getElementById('sciAdvSelected').style.setProperty('--styleNum', styleVal1);
+    document.getElementById('blogSelected').style.setProperty('--styleNum', styleVal1);
+    document.getElementById('chatSelected').style.setProperty('--styleNum', styleVal1);
+    document.getElementById('githubSelected').style.setProperty('--styleNum', styleVal1);
     
 }
