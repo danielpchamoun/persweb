@@ -62,7 +62,10 @@ a:active { text-decoration: none; }
 
 }
 
-
+.asciiart{
+    color:white;
+    font-size:12px;
+}
 
 .handjet{
     font-family: "Handjet", sans-serif;
@@ -78,7 +81,11 @@ a:active { text-decoration: none; }
   }
 
 
-
+.blog-entry{
+    margin-left:10%;
+    margin-right:10%;
+    margin-bottom:5%;
+}
 
 .sectionHeader{
     color: #90ee90;

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="parallax.css" rel="stylesheet">
+<link href="fonts.css" rel="stylesheet">
+
+<link href="/totop/totop.css" rel="stylesheet">
+
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+<style>
+    html {
+      scroll-behavior: smooth;
+    }
+</style>
+
+<!-- fonts-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nabla:EDPT,EHLT@0..200,0..24&family=Rubik+Lines&family=Share+Tech+Mono&family=Sixtyfour&family=Tektur:wght@400..900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bungee&family=Bungee+Hairline&family=Bungee+Inline&family=Bungee+Outline&family=Bungee+Shade&family=Nixie+One&family=Noto+Sans+JP&family=Oxygen&family=Press+Start+2P&display=swap" rel="stylesheet">
+<script src="myscripts.js"></script>
+
+</head>
+
+<button onclick="topFunction()" id="myBtn" title="Go to top">    
+    <img src="pictures/buttonbacktotop.png" style="background-color:transparent; max-height:2.5em;">
+</button>
+
+<body style="background-color:rgb(0, 0, 0);font-size:36px"> 
+    <div style="background-color:black">
+
+    <div class="w3-container">
+        <div class="w3-bar w3-black">
+        <a href="javascript:history.back()" style="font-size: 0.35vw;">
+            <pre>                                                               
+88                                                       
+88                                                       
+88                                                       
+88,dPPYba,    ,adPPYba,   88,dPYba,,adPYba,    ,adPPYba, 
+88P'    "8a  a8"     "8a  88P'   "88"    "8a  a8P_____88 
+88       88  8b       d8  88      88      88  8PP""""""" 
+88       88  "8a,   ,a8"  88      88      88  "8b,   ,aa 
+88       88   `"YbbdP"'   88      88      88   `"Ybbd8"' 
+            </pre>
+        </a>
+ 
+        </div>
+    </div>
+
+
+    <div class="asciititle" style="padding-bottom:5%;">
+        <pre>                                          
+                                                       
+88           88                           
+88           88                           
+88           88                           
+88,dPPYba,   88   ,adPPYba,    ,adPPYb,d8 
+88P'    "8a  88  a8"     "8a  a8"    `Y88 
+88       d8  88  8b       d8  8b       88 
+88b,   ,a8"  88  "8a,   ,a8"  "8a,   ,d88 
+8Y"Ybbd8"'   88   `"YbbdP"'    `"YbbdP"Y8 
+                               aa,    ,88 
+                                "Y8bbdP"  
+        </pre>
+
+enter the chamoun zone
+
+    </div>
+    
+    
+
+    
+<div class="infotext">
+    
+    <div class="blog-entry">
+        this blog will likely be about project progress but i will also likely talk about other stuff like big events or other interests i have. 
+    </div>
+    <div class="blog-entry">
+        for science;adventure stuff, check out the sci;adv quick link. 
+    </div>
+    
+    <div class="blog-entry">
+        6/9/2024: lots of progress regarding whats going on the pcb... i finally understand what i need for the rtc, chose my MCU, one of the PIC's  (i need more practice with microchip's chips because they will always be in the industry is kind of my logic), and tomorrow hopefully i will add schematics. need to take a break from all of this as my last class of college in the summer begins tomorrow, but i will continue this project whenever i have time throughout the summer semester. it is important to not burn out!!! so i am really going to be taking baby step with this project. regarding the whole power supply issue from the past two days, that i still present so i will likely just order a new module so i can be at 170V. kind of a pay to win solution but in the case i fix it affter replacing capacitors or resistors, im sure i will use it in a future project whether it is making another clock, replacement parts, or nixie tube designs (maybe a watch?) that is all for today;
+    </div>
+
+    <div class="blog-entry">
+        6/8/2024: i reread everything again but R_adjust still does nothing to impact the output voltage, im still at 150v when i need to be higher. I emailed the manufacturer of the chip and he responded really quickly telling me to reflow the joint. Unfortunately that did not work so I have replied with a picture of my test setup, so hopefully he can help me through this annoying bug. Not too much progress today as I take a short day break from leetcode, but I did start the KiCad project. I will almost certainly be using MPxIDE instead of Arudino because the libraries that Arduino uses really lacks any documentationfrom my experience. tomorrow ill progress in the KiCad schematics so I can get my first prototype ordered(focus on the RTC module);
+    </div>
+
+    <div class="blog-entry">
+        6/7/2024: tested all of the nixies on 150V. all but two worked, i think due to me not using the proper voltage of 170V. one of the 8 tubes i have has a very short lead, so im considering just buying a new set of 6 or something (also good to have replacements handy). tomorrow i will test on 170v after i reread the datasheet, then ill begin my pcb work after ensuring i have all the nixie tubes ready. Postnote: after playing some games with friends it has come to my attention that R_adjust needs to be set to something like 50-100kohms (read the datasheets closely in the future!);
+    </div>
+
+    <div class="blog-entry">
+        6/6/2024: i restarted my clock project because there were too many bugs when i built it initially due to beginner mistakes but now that i have more experience under my belt it should be good to go! i got all of the in-14 nixie tubes unsoldered which was a whole process but tomorrow i will work on getting the high voltage power supply unsoldered as well to begin testing on a protoboard. eventually alligator clips would be nice especially when using high amounts of voltage. Sidenote, ill have to order at least one more tube but that is for later. join me on my journey to complete the clock;
+    </div>
+
+</div>
+
+
+
+</body>
+
+</html>
+
+
