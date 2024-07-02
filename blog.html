@@ -82,6 +82,10 @@ enter the chamoun zone
     </div>
 
     <div class="blog-entry">
+        7/2/2024: after lots of thread searching on microchip's website, using the EEPROM non volatile memory is actually really easy. all that needed to be done was add __eeprom to the global variables that i will be storing whenever the clock shuts down. overall lots of progress, but still lots of ways to go in terms of programming the rtc. i have capabilities for two time of day alarms, but im wondering if this is overkill or not. what ill probably do is make the clock do an animation based on one alarm because the ds3231 has an internal timer, meaning it can activate a specific function every 2 minutes or so which would be cool for the clock animations to help prevent nixie tube cathode poisoning and help longevity. the other alarm will be the stereotypical sound alarm, so i actually only need 1 byte of eeprom memory for this specific alarm as everything else is calculated directly from the ds3231 rtc chip; 
+    </div>
+
+    <div class="blog-entry">
         6/26/2024: spent the day reading the datasheet and figuring out how the interrupts and PWM works. I gotta say Microchip does their datasheets very nicely and I am a big fan. big shoutout to this guy: https://www.youtube.com/watch?v=OLYNW1EL0e4   for teaching me a lot about the interrupt flags because it saved me a ton of time. i just ordered the pcb from jlcpcb so hopefully we can begin prototyping stuff soon. update on the hvps, a new one from aliexpress arrived today and is confirmed functional. unfortunately, the two other nixies are confirmed broken, so ill eventually have to order 2-3 new ones. finally, i need to order some solder paste and a small hot plate off amazon tomrrow, should be pretty smooth. tomorrow lots of homework to catch up on, but i am very happy with today's progress B]; 
     </div>
 
