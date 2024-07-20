@@ -82,6 +82,10 @@ enter the chamoun zone
     </div>
 
     <div class="blog-entry">
+        7/20/2024: lots of time has been spent assembling the pcb, but i believe everything is no ready for programming. first layer for sure is complete. the second layer there will probably be some issues with the high voltage logic gate converter so for now im going to make sure everything on the first layer of the pcb is functioning: piezos, rtc, power. everything with power seems like it works well, so i am sure all will go well for the first layer. the second layer however i think my solder paste did not eork very well which will probably lead to bad joints for all of the hvps. o i forgot to mention how much of a pain the buck converter was because it was so tiny, but i eventually got everything functioning with proper voltage. if you decide to build this project or ANY project, make sure to check the part size before ordering otherwise you will have to constantly be reflowing all of the tiny leads to make sure there is no bridging. so yeah rly good progress and more programming to be done tonight after fgc local kith 👍;
+    </div>
+    
+    <div class="blog-entry">
         7/1/2024: after lots of thread searching on microchip's website, using the EEPROM non volatile memory is actually really easy. all that needed to be done was add __eeprom to the global variables that i will be storing whenever the clock shuts down. overall lots of progress, but still lots of ways to go in terms of programming the rtc. i have capabilities for two time of day alarms, but im wondering if this is overkill or not. what ill probably do is make the clock do an animation based on one alarm because the ds3231 has an internal timer, meaning it can activate a specific function every 2 minutes or so which would be cool for the clock animations to help prevent nixie tube cathode poisoning and help longevity. the other alarm will be the stereotypical sound alarm, so i actually only need 1 byte of eeprom memory for this specific alarm as everything else is calculated directly from the ds3231 rtc chip; 
     </div>
 
