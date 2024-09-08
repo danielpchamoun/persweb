@@ -18,6 +18,7 @@ a:active { text-decoration: none; }
     display: flex; 
     justify-content: space-around;
     flex-wrap: nowrap;
+    font-size: 15px;
 }
 
 .ascii-margin > div, .ascii-margin > a {
@@ -53,24 +54,17 @@ a:active { text-decoration: none; }
     line-height:0.9;
 }
 
-.leftlinks{
-    float: right;
-
-}
-.rightlinks{
+.tab{
     float: left;
+    rotate: 0deg;
 
 }
 
-.asciiart{
-    color:white;
-    font-size:12px;
-}
 
 .handjet{
     font-family: "Handjet", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 600;
+    font-weight: 400;
     font-style: normal;
     font-variation-settings:
       "ELGR" 1,
