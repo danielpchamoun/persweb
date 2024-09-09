@@ -59,7 +59,7 @@ var intervalId = window.setInterval(function(){
 function selectAbout(){
     aboutSelected = 1;
     document.getElementById('aboutSelected').style.setProperty('--styleNum', styleVal2);
-    document.getElementById('ascii-scene').innerHTML = `me
+    document.getElementById('ascii-scene').innerHTML = `  me
 
 
 
