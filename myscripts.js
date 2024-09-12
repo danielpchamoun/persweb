@@ -12,8 +12,11 @@ var githubSelected = 0;
 var startStyle = 4;
 var endStyle = 5;
 var styleVal1 = 2;
-var styleVal2 = 4.25;
+var styleVal2 = 2;
 var temp = startStyle;
+var selectedColor = "#ffffff"; //1a8dff
+var selectedWeight = "400";
+
 
 //updates counts
 /*
@@ -58,6 +61,8 @@ var intervalId = window.setInterval(function(){
 
 function selectAbout(){
     aboutSelected = 1;
+    document.getElementById('aboutSelected').style.color=selectedColor;
+    document.getElementById('aboutSelected').style.fontWeight=selectedWeight;
     document.getElementById('aboutSelected').style.setProperty('--styleNum', styleVal2);
     document.getElementById('ascii-scene').innerHTML = `  me
 
@@ -106,8 +111,10 @@ d | b
 
 function selectProjects(){
     projectsSelected = 1;
+    document.getElementById('projectsSelected').style.color=selectedColor;
+    document.getElementById('projectsSelected').style.fontWeight=selectedWeight;
     document.getElementById('projectsSelected').style.setProperty('--styleNum', styleVal2);
-    document.getElementById('ascii-scene').innerHTML = `                                  embedded software
+    document.getElementById('ascii-scene').innerHTML = `                               embedded software
 
 
     
@@ -153,12 +160,60 @@ function selectProjects(){
 }
 function selectSkills(){
     skillsSelected = 1;
+    document.getElementById('skillsSelected').style.color=selectedColor;
+    document.getElementById('skillsSelected').style.fontWeight=selectedWeight;
     document.getElementById('skillsSelected').style.setProperty('--styleNum', styleVal2);
-    document.getElementById('ascii-scene').innerHTML = "languages and frameworks";
+    document.getElementById('ascii-scene').innerHTML = `                                            languages
 
+ 
+
+                       tf                                                        
+                       ff                                                  
+                      fff                                            
+                     ffff                                       
+                   ffff                                 
+                 fffff   jfff                     
+              ffffff  ffffj                   
+             ffffj tffff                             .::::::::::.                                  
+            ffff  ffff                             .::\`\`::::::::::.                                 
+            fff   ffff                             :::..:::::::::::                                 
+            ffff  fffff                            \`\`\`\`\`\`\`\`::::::::                                 
+             fffj  fffff                   .::::::::::::::::::::::: iiiiiii,                        
+               fff  fffff               .:::::::::::::::::::::::::: iiiiiiiii.                      
+                 ff  fff                ::::::::::::::::::::::::::: iiiiiiiiii                      
+      nnnnv         ff        nxnxnn    ::::::::::::::::::::::::::: iiiiiiiiii                      
+     nnxnnnnnnxnnnxnxnnnnnnn     nxn    :::::::::: ,,,,,,,,,,,,,,,,,iiiiiiiiii                      
+        cnxnnnnnxnxnv            xnn    :::::::::: iiiiiiiiiiiiiiiiiiiiiiiiiii                      
+        nnxnc        nnnnn     nnnv     \`::::::::: iiiiiiiiiiiiiiiiiiiiiiiiii\`                      
+         nnxnxnnxxnxnnxxxnv  nnn           \`:::::: iiiiiiiiiiiiiiiiiiiiiii\`                         
+           n                                       iiiiiiii,,,,,,,,                                 
+         vnxnnnnnxnnxnxnnv                         iiiiiiiiiii''iii                                 
+    nvnnx  nnnnxxnxxnxnn                           \`iiiiiiiiii..ii\`                                 
+ nnxn                          nnn         
+ nnnnxxnnnnxxnnnnnnnnnnnnxnnnnv   nn                    
+       nnnnnnxnvvnnnnnn nvnnnxnnnnn                             
+         vnnnnnnnxnxnnnxnnnnn                                         
+                                                                            
+  fff                                                                                                    
+  fff                                
+  fff rffffffff fff   jfff fffffffjjf
+  fff  t    fff ffff  fffj      fff          
+  fff   tffffff  ffff fff    ffffff         
+  fff fffffffff  jfffffff jffffjfff  
+  fff fff   fff   ffffff  ffff  fff  
+  fff jffffffff   jffff   fffffffff  
+ ffff   fff                 jtt      
+ffff                     
+
+
+                               
+
+    `
 }
 function selectResume(){
     resumeSelected = 1;
+    document.getElementById('resumeSelected').style.color=selectedColor;
+    document.getElementById('resumeSelected').style.fontWeight=selectedWeight;
     document.getElementById('resumeSelected').style.setProperty('--styleNum', styleVal2);
     document.getElementById('ascii-scene').innerHTML = "experience and work history";
 
@@ -167,8 +222,50 @@ function selectResume(){
 
 function selectGrind(){
     grindSelected = 1;
+    document.getElementById('grindSelected').style.color=selectedColor;
+    document.getElementById('grindSelected').style.fontWeight=selectedWeight;
     document.getElementById('grindSelected').style.setProperty('--styleNum', styleVal2);
-    document.getElementById('ascii-scene').innerHTML = "my weekly stats";
+    document.getElementById('ascii-scene').innerHTML = `                                                                         my weekly stats
+    
+
+
+                                      _                                   _
+                                    _| |                                 | |_
+                                   | | |______OOOOo__________oOOOO_______| | |
+                                  [| | |--------(\`,----------\\\`,---------| | |]           OOOOo         oOOOO
+                                   |_| |      )  (            )  (       | |_|            |-(\`/         \\\`, |
+                                     |_|      /  |            |  \\       |_|     _        )  (  \\   |     )  (        _
+                                              |  |  \\\\\\\\\\\\//  |  |             _|#|       /  |         /  |  \\       |#|_
+                                              \\  /  | -  - |  \\  /            |#|#|______________.:-._.-_____________|#|#|
+                                              /  \\ (  a  a  ) /  \\           [|#|#|-------------''''.'.'-------------|#|#|]
+                                              |   | |  L   | |   |            |#|#|       /  \\ (  a  a  ) /  \\       |#|#|
+                                              |   | \\  ==  / |   |             "|#|       |   | |  L   | |   |       |#|"
+                                              |   /_.\\____/._\\   |               "        |   | \\ _.=. / |   |        "
+                                               \\   ||      ||   /                         |   /_.\\____/._\\   |
+                                                \\  | '-..-' |  /                           \\   ||      ||   /
+                                                |  ; GOLD'S ;  |                            \\  | '-..-' |  /
+                                                | /          \\ |                            |  ; L      ;  |
+                                                 \\            /                             | /          \\ |
+                                                  |          |                               \\            /
+                                                  |    __    |                               |            |
+                                                  |===[  ]===|                               |     __     |
+                                                  )"""\`""\`"""(                               |====[  ]====|
+                                                 /            \\                              )"""\`"""\`""""(
+                {{{{{{{{                        /    ,____,    \\                            /              \\
+                I ^  ^ I                       /'-._ .'  '. _.-'\\                          (     ,_--_,     )
+               CI @  @ ID                     /     /      \\     \\                         |'-._ \\    / _.-'|                                *umph*
+            __  I  .L  I  __                  |    /        \\    |                          \\     \\  /     /                                  |
+          _I  I \\  ~~  / I  I_                (_  /          \\  _)                           \\/   _)(_   \\/                  _            \\    /             _
+         I I  I  ______  I  I I                |  \`\\        /\`  |                             )    ||    (                 _|#|       .-.         .-.       |#|_
+   []    I I__I          I__I I    []          |___|        |___|                            |___ /  \\ ___|               |#|#|______/  /_ .-'-. _\\  \\______|#|#|
+  [ ]    I I  Io        oI  I I    [ ]         |===/        \\===|                            |===/    \\===|              [|#|#|------| (  || | ||  ) |------|#|#|]
+ [  ]======OOOO==========OOOO======[  ]      _/\\._(          )_./\\_                         /\\._(_    _)_./\\              |#|#|      |__|_.-'''-._|__|      |#|#|
+  [ ]    I___I__\\      /__I___I    [ ]     /\`      |         |    _\`\\                      |\`     \\  /    _\`|              "|#|                             |#|"
+   []    (______)      (_______)   []      \`""""\`""           ""\`"""\`                       \`""""\`""  ""\`"""\`                "                               "
+
+    
+    
+    `;
 
 }
 
@@ -176,20 +273,27 @@ function selectGithub(){
     githubSelected = 1;
     document.getElementById('githubSelected').style.setProperty('--styleNum', styleVal2);
     document.getElementById('ascii-scene').innerHTML = "see my code";
+    document.getElementById('githubSelected').style.color=selectedColor;
+    document.getElementById('githubSelected').style.fontWeight=selectedWeight;
+
+
+
 
 }
 function selectChat(){
     chatSelected = 1;
     document.getElementById('chatSelected').style.setProperty('--styleNum', styleVal2);
     document.getElementById('ascii-scene').innerHTML = "internet checkpoint";
-
+    document.getElementById('chatSelected').style.color=selectedColor;
+    document.getElementById('chatSelected').style.fontWeight=selectedWeight;
 
 }
 function selectBlog(){
     blogSelected = 1;
     document.getElementById('blogSelected').style.setProperty('--styleNum', styleVal2);
     document.getElementById('ascii-scene').innerHTML = "project and life updates";
-
+    document.getElementById('blogSelected').style.color=selectedColor;
+    document.getElementById('blogSelected').style.fontWeight=selectedWeight;
 }
 /*
 function selectSciAdv(){
@@ -210,6 +314,24 @@ function resetSelected(){
     blogSelected = 0;
     chatSelected = 0;
     githubSelected = 0;
+
+
+    document.getElementById('githubSelected').style.color="#c0c0c0";
+    document.getElementById('githubSelected').style.fontWeight="400";
+    document.getElementById('projectsSelected').style.color="#c0c0c0";
+    document.getElementById('projectsSelected').style.fontWeight="400";
+    document.getElementById('skillsSelected').style.color="#c0c0c0";
+    document.getElementById('skillsSelected').style.fontWeight="400";
+    document.getElementById('aboutSelected').style.color="#c0c0c0";
+    document.getElementById('aboutSelected').style.fontWeight="400";
+    document.getElementById('resumeSelected').style.color="#c0c0c0";
+    document.getElementById('resumeSelected').style.fontWeight="400";
+    document.getElementById('grindSelected').style.color="#c0c0c0";
+    document.getElementById('grindSelected').style.fontWeight="400";
+    document.getElementById('blogSelected').style.color="#c0c0c0";
+    document.getElementById('blogSelected').style.fontWeight="400";
+    document.getElementById('chatSelected').style.color="#c0c0c0";
+    document.getElementById('chatSelected').style.fontWeight="400";
 
     document.getElementById('aboutSelected').style.setProperty('--styleNum', styleVal1);
     document.getElementById('projectsSelected').style.setProperty('--styleNum', styleVal1);

@@ -20,7 +20,14 @@ a:active { text-decoration: none; }
     flex-wrap: nowrap;
     font-size: 15px;
 }
-
+.asciititle{
+    color: #4deeea;
+    justify-content: center;
+    font-family: 'Courier New', monospace;
+    text-align: center;
+    font-size: 0.8vw;
+    line-height:0.9;
+}
 .ascii-scene{
     font-size: 0.8vw;
     padding-left: 0%;
@@ -28,6 +35,9 @@ a:active { text-decoration: none; }
     display: flex; 
     justify-content: space-around;
     flex-wrap: nowrap;
+    color: #81f1cd;
+    font-family: 'Courier New', monospace;
+    line-height: 0.9;
 }
 
 .ascii-margin > div, .ascii-margin > a {
@@ -44,17 +54,10 @@ a:active { text-decoration: none; }
     object-fit: contain;
 
 }
-.asciititle{
-    color: #90ee90;
-    justify-content: center;
-    font-family: 'Courier New', monospace;
-    text-align: center;
-    font-size: 0.8vw;
-    line-height:0.9;
-}
+
 
 .asciiquickimagelink{
-    color: #90ee90;
+    color: #c0c0c0;
     justify-content: center;
     font-family: 'Courier New', monospace;
     text-align: center;
@@ -78,7 +81,7 @@ a:active { text-decoration: none; }
     font-variation-settings:
       "ELGR" 1,
       "ELSH" var(--styleNum);
-    color:#90ee90;
+    color:#c0c0c0; 
     font-size: 5vw;
     rotate: 0deg;
   }
@@ -91,8 +94,7 @@ a:active { text-decoration: none; }
 }
 
 .sectionHeader{
-    color: #90ee90;
-    background: radial-gradient(#000000, #000000);
+    color: #4deeea;
     display: flex;
     justify-content: center;
     font-size: 0.5vw; 
@@ -105,7 +107,7 @@ a:active { text-decoration: none; }
 
 .header{
 
-    color: #90ee90;
+    color: #ead8fd;
     display: flex;
     justify-content: center;
     font-size: 3.2vw;
@@ -181,11 +183,13 @@ a:active { text-decoration: none; }
 
 }
 
+.background{
+    background-color: #000000;
 
+}
 .infotext{
-    background-color: black;
     background-size: auto;
-    color: white;
+    color: #ffffff;
     text-align: left; /*causing formatting issues with the row and column classes*/
     font-family: "Courier New", monospace;
    /* font-weight: 700;*/
