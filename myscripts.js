@@ -64,42 +64,38 @@ function selectAbout(){
     document.getElementById('aboutSelected').style.color=selectedColor;
     document.getElementById('aboutSelected').style.fontWeight=selectedWeight;
     document.getElementById('aboutSelected').style.setProperty('--styleNum', styleVal2);
-    document.getElementById('ascii-scene').innerHTML = `  me
+    document.getElementById('ascii-scene').innerHTML = `                me
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
- ___ 
-/. .\\
-\\_-_/
- /T\\ 
-d | b
- / \\ 
 
 
 
 
 
  
-
-
-
-
-
-
-
+              .-'"'-.
+             :       :
+             L _     |
+             'L.  " "|
+              |"L    F
+          __--'  L  .---__
+       J'"       ."'      \\
+      J                    \\
+      |                     L
+      F    J|          |L   |
+      F   J |          ||   L
+      |   | J          F|   |
+      |   F J          FJ   F
+      J   |  L        J J  J
+      J   |  |        | J  J
+       L  F  |        | |  |
+       L  F_-F     _  J_|  |
+    .-J   K ____-""."-_ F  J---.
+   F   L J \\           /   J    L
+  |    I__L"     _---__"J__|    L
+   L_    ____--""------""----"""
+     """"
 
 
 
@@ -150,10 +146,6 @@ function selectProjects(){
 
 
 
-
-
-
-          
                                                   
 `;
 
@@ -163,51 +155,42 @@ function selectSkills(){
     document.getElementById('skillsSelected').style.color=selectedColor;
     document.getElementById('skillsSelected').style.fontWeight=selectedWeight;
     document.getElementById('skillsSelected').style.setProperty('--styleNum', styleVal2);
-    document.getElementById('ascii-scene').innerHTML = `                                            languages
+    document.getElementById('ascii-scene').innerHTML = `                                                                   languages
 
  
+
 
                        tf                                                        
                        ff                                                  
                       fff                                            
-                     ffff                                       
-                   ffff                                 
-                 fffff   jfff                     
-              ffffff  ffffj                   
-             ffffj tffff                             .::::::::::.                                  
-            ffff  ffff                             .::\`\`::::::::::.                                 
-            fff   ffff                             :::..:::::::::::                                 
-            ffff  fffff                            \`\`\`\`\`\`\`\`::::::::                                 
-             fffj  fffff                   .::::::::::::::::::::::: iiiiiii,                        
-               fff  fffff               .:::::::::::::::::::::::::: iiiiiiiii.                      
-                 ff  fff                ::::::::::::::::::::::::::: iiiiiiiiii                      
-      nnnnv         ff        nxnxnn    ::::::::::::::::::::::::::: iiiiiiiiii                      
-     nnxnnnnnnxnnnxnxnnnnnnn     nxn    :::::::::: ,,,,,,,,,,,,,,,,,iiiiiiiiii                      
-        cnxnnnnnxnxnv            xnn    :::::::::: iiiiiiiiiiiiiiiiiiiiiiiiiii                      
-        nnxnc        nnnnn     nnnv     \`::::::::: iiiiiiiiiiiiiiiiiiiiiiiiii\`                      
-         nnxnxnnxxnxnnxxxnv  nnn           \`:::::: iiiiiiiiiiiiiiiiiiiiiii\`                         
-           n                                       iiiiiiii,,,,,,,,                                 
-         vnxnnnnnxnnxnxnnv                         iiiiiiiiiii''iii                                 
-    nvnnx  nnnnxxnxxnxnn                           \`iiiiiiiiii..ii\`                                 
- nnxn                          nnn         
- nnnnxxnnnnxxnnnnnnnnnnnnxnnnnv   nn                    
-       nnnnnnxnvvnnnnnn nvnnnxnnnnn                             
-         vnnnnnnnxnxnnnxnnnnn                                         
-                                                                            
-  fff                                                                                                    
-  fff                                
-  fff rffffffff fff   jfff fffffffjjf
-  fff  t    fff ffff  fffj      fff          
-  fff   tffffff  ffff fff    ffffff         
-  fff fffffffff  jfffffff jffffjfff  
-  fff fff   fff   ffffff  ffff  fff  
-  fff jffffffff   jffff   fffffffff  
- ffff   fff                 jtt      
-ffff                     
-
-
-                               
-
+                     ffff                                        
+                   ffff                                             --------                      
+                 fffff   jfff                                    --------------              
+              ffffff  ffffj                                  ----------------------
+             ffffj tffff                                  ----------------------------                                   .::::::::::.
+            ffff  ffff                                 ----------------------------------                              .::\`\`::::::::::.
+            fff   ffff                              -------------...        ..--------------                           :::..:::::::::::
+            ffff  fffff                            ------------.                .----------++                          ::::::::::::::::
+                                                   ----------.                    .-----++###                          \`\`\`\`\`\`\`\`::::::::
+             fffj  fffff                           ---------                        -+#######                  .::::::::::::::::::::::: iiiiiii,
+               fff  fffff                          --------         .------.      -##########               .:::::::::::::::::::::::::: iiiiiiiii.
+                 ff  fff                           -------.       .----------. -#############               ::::::::::::::::::::::::::: iiiiiiiiii
+      nnnnv         ff        nxnxnn               -------       .---------+######+ +###+ +##               ::::::::::::::::::::::::::: iiiiiiiiii
+     nnxnnnnnnxnnnxnxnnnnnnn     nxn               -------       -------+########     #     #               :::::::::: ,,,,,,,,,,,,,,,,,iiiiiiiiii
+        cnxnnnnnxnxnv            xnn               -------       .--+#############+ +###+ +##               :::::::::: iiiiiiiiiiiiiiiiiiiiiiiiiii
+        nnxnc        nnnnn     nnnv                -------.       -##########-.+#############               \`::::::::: iiiiiiiiiiiiiiiiiiiiiiiiii\`
+         nnxnxnnxxnxnnxxxnv  nnn                   --------         +#####+-     .+##########                  \`:::::: iiiiiiiiiiiiiiiiiiiiiii\`
+           n                                       -------++                       .#########                          iiiiiiii,,,,,,,,
+         vnxnnnnnxnnxnxnnv                         ----+#####-                    +##########                          iiiiiiiiiiiiiiii
+    nvnnx  nnnnxxnxxnxnn                           -+##########-                +############                          iiiiiiiiiii''iii
+ nnxn                          nnn                  ##############+-.      ..+##############                           \`iiiiiiiiii..ii\`
+ nnnnxxnnnnxxnnnnnnnnnnnnxnnnnv   nn                   ##################################                                   
+       nnnnnnxnvvnnnnnn nvnnnxnnnnn                       ############################                                      
+         vnnnnnnnxnxnnnxnnnnn                                ######################               
+                                                                 ##############              
+                                                                    ########                                                                        
+    
+                                                                    
     `
 }
 function selectResume(){
@@ -215,7 +198,43 @@ function selectResume(){
     document.getElementById('resumeSelected').style.color=selectedColor;
     document.getElementById('resumeSelected').style.fontWeight=selectedWeight;
     document.getElementById('resumeSelected').style.setProperty('--styleNum', styleVal2);
-    document.getElementById('ascii-scene').innerHTML = "experience and work history";
+    document.getElementById('ascii-scene').innerHTML = `                 experience and work history
+    
+           .-.---------------------------------.-.
+          ((o))                                   )
+           \\U/_______          _____         ____/
+             |                                  |
+             |                                  |
+             |    D~~~~~ C~~~~~~                |
+             |                                  |
+             |    ~~~                      ~~~  |
+             |       ~~~~~~~~~~~~~~~~~~~~~      |
+             |       ~~~~~~~~~~~~               |
+             |                                  |
+             |    ~~~                      ~~~  |
+             |       ~~~~~~~~~~~~~~~~~~~~~      |
+             |                                  |
+             |    ~~~                      ~~~  |
+             |       ~~~~~~~~~~~~~~~~~~~~~      |
+             |       ~~~                        |  
+             |                                  |
+             |    ~~~                     ~~~   |
+             |       ~~~~~~~~~~~~~~~~~~         |
+             |                                  |
+             |    ~~~                      ~~~  |
+             |       ~~~~~~~~~~~~~~~~           |             
+             |                                  |
+             |    ~~~                      ~~~  |
+             |       ~~~~~~~~~~~~~~~~~~~        |
+             |                                  |
+             |____    _______    __  ____    ___|
+            /A\\                                  \\
+           ((o))                                  )
+            '-'----------------------------------'
+    
+    
+    
+    `;
 
 }
 
@@ -227,8 +246,6 @@ function selectGrind(){
     document.getElementById('grindSelected').style.setProperty('--styleNum', styleVal2);
     document.getElementById('ascii-scene').innerHTML = `                                                                         my weekly stats
     
-
-
                                       _                                   _
                                     _| |                                 | |_
                                    | | |______OOOOo__________oOOOO_______| | |
@@ -253,7 +270,7 @@ function selectGrind(){
                                                  /            \\                              )"""\`"""\`""""(
                 {{{{{{{{                        /    ,____,    \\                            /              \\
                 I ^  ^ I                       /'-._ .'  '. _.-'\\                          (     ,_--_,     )
-               CI @  @ ID                     /     /      \\     \\                         |'-._ \\    / _.-'|                                *umph*
+               CI @  @ ID                     /     /      \\     \\                         |'-._ \\    / _.-'|                                
             __  I  .L  I  __                  |    /        \\    |                          \\     \\  /     /                                  |
           _I  I \\  ~~  / I  I_                (_  /          \\  _)                           \\/   _)(_   \\/                  _            \\    /             _
          I I  I  ______  I  I I                |  \`\\        /\`  |                             )    ||    (                 _|#|       .-.         .-.       |#|_
@@ -263,8 +280,6 @@ function selectGrind(){
   [ ]    I___I__\\      /__I___I    [ ]     /\`      |         |    _\`\\                      |\`     \\  /    _\`|              "|#|                             |#|"
    []    (______)      (_______)   []      \`""""\`""           ""\`"""\`                       \`""""\`""  ""\`"""\`                "                               "
 
-    
-    
     `;
 
 }
@@ -272,9 +287,45 @@ function selectGrind(){
 function selectGithub(){
     githubSelected = 1;
     document.getElementById('githubSelected').style.setProperty('--styleNum', styleVal2);
-    document.getElementById('ascii-scene').innerHTML = "see my code";
     document.getElementById('githubSelected').style.color=selectedColor;
     document.getElementById('githubSelected').style.fontWeight=selectedWeight;
+    document.getElementById('ascii-scene').innerHTML = `                      see my code
+
+
+    
+                    @@@@@@@@@@@@@@@                    
+               @@@@@@@@@@@@@@@@@@@@@@@@@               
+            @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@            
+          @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@          
+        @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@        
+      @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@      
+     @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@    
+   @@@@@@@@@@    @@@@@@@@@@@@@@@@@@@@@    @@@@@@@@@@   
+  @@@@@@@@@@@                             @@@@@@@@@@@  
+ @@@@@@@@@@@@                             @@@@@@@@@@@@ 
+ @@@@@@@@@@@@                             @@@@@@@@@@@@ 
+@@@@@@@@@@@@                               @@@@@@@@@@@@
+@@@@@@@@@@@                                 @@@@@@@@@@@
+@@@@@@@@@@@                                 @@@@@@@@@@@
+@@@@@@@@@@@                                 @@@@@@@@@@@
+@@@@@@@@@@@                                 @@@@@@@@@@@
+@@@@@@@@@@@                                 @@@@@@@@@@@
+@@@@@@@@@@@                                 @@@@@@@@@@@
+@@@@@@@@@@@@                               @@@@@@@@@@@@
+ @@@@@@@@@@@@                             @@@@@@@@@@@@@
+ @@@@@@@@@@@@@@@                       @@@@@@@@@@@@@@@ 
+  @@@@@@@@@@@@@@@@@@@@           @@@@@@@@@@@@@@@@@@@@@ 
+  @@@@@@@@  @@@@@@@@@@@         @@@@@@@@@@@@@@@@@@@@@  
+    @@@@@@@  @@@@@@@@@           @@@@@@@@@@@@@@@@@@@   
+     @@@@@@@   @@@@@@             @@@@@@@@@@@@@@@@     
+      @@@@@@@@                    @@@@@@@@@@@@@@@      
+        @@@@@@@@@@@@@             @@@@@@@@@@@@@        
+          @@@@@@@@@@@             @@@@@@@@@@@          
+             @@@@@@@@             @@@@@@@@             
+                @@@@@             @@@@@                
+    
+    
+    `;
 
 
 
@@ -283,17 +334,108 @@ function selectGithub(){
 function selectChat(){
     chatSelected = 1;
     document.getElementById('chatSelected').style.setProperty('--styleNum', styleVal2);
-    document.getElementById('ascii-scene').innerHTML = "internet checkpoint";
     document.getElementById('chatSelected').style.color=selectedColor;
     document.getElementById('chatSelected').style.fontWeight=selectedWeight;
+    document.getElementById('ascii-scene').innerHTML = `                                                    internet checkpoint
+
+
+                                                                                                                                
+                                                                                   =                                
+                                                                                   =+                               
+                                                                                  ++**                              
+                                                                                 #*+*@                              
+                                                                                *#**%@%                             
+                                                                               +#%@#%@@                             
+                                                                        +%%#%##%%%@@@@@                             
+                                                                      #%%@@%%@%#@@@%@@@@                            
+                                                                     #%*%%@@%%##@@@@@%@@@                           
+                                                                    +*#@%@%%%#%@@@@@@@%@@@              #%#####*##  
+                                                                   *+*@@%#+*%%%###%#*#@@@@@@        ***#%%%#*+#***##
+                                                             =*   %%*%@@%###%###%@@@@@@@@@@@%      *#**#**#******#%%           
+                                                  **  =+%% #+***%%%%#%%%%#@@@#%%%@@%@@@@@@@@@@      %%####@%##%%##%@         
+                                                 #*#*##+%%#****#%%####%%#*%#**#@@%%%%@@@%%#%*#%%     ##%%%@%###%@@%@           
+                                                  +#%@@%#**#*%%%%%###********%%#%%%%%%%###%%%#%%@    @%##%%%%%%@%@@        
+                                                       @%###%@%#*%%%%####################+##%%#@@     #%#%%#%%%@@@         
+                                                       %%##%%@%**#%%%#*##***#*##****#*#######%@%       ##%%%@%@@%          
+                                               ==*#     %%%#%%@%%*******+********#***######%@@%          %%%@@%@           
+                                               **#%      %@%%%%%%%#%%%####*#**##**###%@#%@%@@@             %%@@            
+                                           ####+*%%###   %#%%#####%%%##@%%%%*#%@#*#%%%@#@@@@@                              
+                                        ###%%%%#*##*+*#    #%%#*#%*%%%%%%%%%%%%%@##%%%%%@%%%@             #                
+                                       #**#**#*++*#**%%%    %%%%%%#%%%%####%%%%%@#%@%@@@%%@            *######                   
+                                       %%#*##%%###%###%@    %%@@%*#@%%%%%%#%%%%@@#%%%@@@@             #*###*#%%                           
+                                       ###%%#@%#%#%%@%@          +** %%@%%%@@@@%%**                 ###****#%@                            
+                                         %%%%%%%%%@%@@           ++*   @@%%%@%@# *+                #*###%*#%@%                            
+     __    __                            #@%%%##%%@@@            *++      %%@@   ++          #**#+#%###%%##%@@                                  __    __       
+  .-'| |\\ /  \\                             #%%%@%@@%             ***       @     **      *####***#####*++%%#@@                                 /  \\ /| |'-. 
+ |   | || \\__/.                             %%%@@@@%             +**             *+      ##**#*#%#*###*#*#%@@%                                .\\__/ || |   | 
+ '-._|_|/ _.'  \\ _                            %%@@               +++             ++      %%%###%%**#####%@%@                               _ /  \`._ \\|_|_.-'
+  _) (_.='.__/  \\ |                                              *++             +*       %##%%@@%%@%%@@%@@                               | /  \\__.\`=._) (_ 
+|"""""""""|  \\_. \\|                                              +**             *+        %%##%%%%@#@%@@@                                |/ ._/  |"""""""""|
+|         | /'  .'|                                              +++             ++        %%%%%%%%@%%@@%                                 |'.  \`\\ |         |
+|         | \\ \\""";                                              *++             +*          #%%%%%%%%%%                                  ;"""/ / |         |
+|.-------.| |\\_\\ (                                               +**             **            %%%%@%                                      ) /_/| |.-------.|
+"	  " ''-'  '                                              +++             ++                                                       '  \`-\`' "         "
+                                                                 *++             ++                                     
+
+
+   
+
+
+
+
+
+
+
+
+    
+    
+    `;
 
 }
 function selectBlog(){
     blogSelected = 1;
     document.getElementById('blogSelected').style.setProperty('--styleNum', styleVal2);
-    document.getElementById('ascii-scene').innerHTML = "project and life updates";
     document.getElementById('blogSelected').style.color=selectedColor;
     document.getElementById('blogSelected').style.fontWeight=selectedWeight;
+    document.getElementById('ascii-scene').innerHTML = `                    project and life updates
+                                                          
+
+
+
+                                                    .' \\
+                                                  .'    .
+                                                .'  ...'.\`
+                                       ___.-. .'  ...'.'
+                                 _.---'   \`..'  ...'.'
+                          __.---'         .'  ...'.'
+                      .--'              .'  ...'.'.
+                     /\`               .'  ...'.'   \`.
+                    /               .'  ...'.'       \`.
+                   /              .'  ...'.'           \`-.
+                  /             .'  ...'.'                \`.
+                 /       \` _.-.'  ...'                      \`-._____.-'
+                /        /  .'  ...'
+               /\`       / .'. ...'
+              /        /.'  .\`.'   \\
+             /        .'  ...'  |   \\ /
+            /\\      .'  ...'     \\   |
+           / /    .'  ...' /      \\  |
+          /_/   .'  ...'  /  |    |  |'
+          \`._..' .-------.__________.'
+            .' .'----
+          .'   |     |      |
+        .'  ....     |    |
+      .'  ...'| \\ __.'     |                                        ___
+     / \\...'   \\_\`------------------._____                  ___.---'
+    /  .-'            |    | \\__/         \`--.__        _.-'
+   /.-'                \\__/                     \`------'
+~~'
+
+
+
+
+`;
+
 }
 /*
 function selectSciAdv(){
